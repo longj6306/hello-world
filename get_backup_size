@@ -1,0 +1,6 @@
+#!/system/bin/sh
+
+##du -cash /sdcard/DCIM /sdcard/Ringtones /sdcard/Music /sdcard/Pictures /sdcard/Movies | tail -n 1 | cut -f 1
+
+#du -cask `find /sdcard/ -type d -maxdepth 1 -mindepth 1 -name "*" ! -path /sdcard/Android` | tail -n 1 | cut -f 1
+du -cask /sdcard/ | tail -n 1 | cut -f 1

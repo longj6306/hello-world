@@ -1,0 +1,107 @@
+#!/sbin/sh
+
+set_perm() {
+	chown $1.$2 $4
+	chown $1:$2 $4
+	chmod $3 $4
+}
+
+ch_con() {
+	/system/bin/toolbox chcon u:object_r:system_file:s0 $1
+	chcon u:object_r:system_file:s0 $1
+}
+
+ch_con_ext() {
+	/system/bin/toolbox chcon $2 $1
+	chcon $2 $1
+}
+
+/sbin/busybox mount /system 
+/sbin/busybox mount -o rw,remount /system /system
+
+API=$(cat /system/build.prop | grep ro.build.version.sdk= | dd bs=1 skip=21 count=2)
+SUMOD=06755
+SUGOTE=false
+MKSH=/system/bin/mksh
+if [ "$API" -eq "$API" ]; then
+  if [ "$API" -gt "17" ]; then
+      SUMOD=0755
+	  SUGOTE=true
+  fi
+fi
+if [ ! -f $MKSH ]; then
+  MKSH=/system/bin/sh
+fi
+
+/sbin/busybox rm /system/bin/su
+/sbin/busybox rm /system/xbin/su
+/sbin/busybox rm /system/xbin/sugote
+/sbin/busybox rm /system/xbin/daemonsu
+/cache/recovery/chattr -i /system/xbin/.su
+/cache/recovery/chattr.pie -i /system/xbin/.su
+/cache/recovery/chattr -i /system/bin/.ext/.su
+/cache/recovery/chattr.pie -i /system/bin/.ext/.su
+/cache/recovery/chattr -i /system/xbin/daemonsu
+/cache/recovery/chattr.pie -i /system/xbin/daemonsu
+/cache/recovery/chattr -i /system/etc/install-recovery.sh
+/cache/recovery/chattr.pie -i /system/etc/install-recovery.sh
+/sbin/busybox rm /system/bin/.ext/.su
+/sbin/busybox rm /system/bin/install-recovery.sh
+
+/sbin/busybox mkdir /system/bin/.ext
+/sbin/busybox chown 0.0 /system/bin/.ext
+/sbin/busybox chmod 0777 /system/bin/.ext
+
+/sbin/busybox cat /cache/recovery/su > /system/xbin/su
+if ($SUGOTE); then 
+  /sbin/busybox cat /cache/recovery/su > /system/xbin/sugote
+  /sbin/busybox cat /cache/recovery/mksh > /system/xbin/sugote-mksh
+fi
+/sbin/busybox cat /cache/recovery/su > /system/bin/.ext/.su
+/sbin/busybox cat /cache/recovery/su > /system/xbin/daemonsu
+/sbin/busybox cat /cache/recovery/install-recovery.sh > /system/etc/install-recovery.sh
+/sbin/busybox ln -s /system/etc/install-recovery.sh /system/bin/install-recovery.sh
+/sbin/busybox cat /cache/recovery/99SuperSUDaemon > /system/etc/init.d/99SuperSUDaemon
+/sbin/busybox cat /cache/recovery/.installed_su_daemon > /system/etc/.installed_su_daemon
+
+set_perm 0 0 0777 /system/bin/.ext
+set_perm 0 0 $SUMOD /system/bin/.ext/.su
+set_perm 0 0 $SUMOD /system/xbin/su
+if ($SUGOTE); then 
+  set_perm 0 0 0755 /system/xbin/sugote
+  set_perm 0 0 0755 /system/xbin/sugote-mksh
+fi
+set_perm 0 0 0755 /system/xbin/daemonsu
+set_perm 0 0 0755 /system/etc/install-recovery.sh
+set_perm 0 0 0755 /system/etc/init.d/99SuperSUDaemon
+set_perm 0 0 0644 /system/etc/.installed_su_daemon
+set_perm 0 0 0644 /system/app/Superuser.apk
+
+ch_con /system/bin/.ext/.su
+ch_con /system/xbin/su
+if ($SUGOTE); then 
+  ch_con_ext /system/xbin/sugote u:object_r:zygote_exec:s0
+  ch_con /system/xbin/sugote-mksh
+fi
+ch_con /system/xbin/daemonsu
+ch_con /system/etc/install-recovery.sh
+ch_con /system/etc/init.d/99SuperSUDaemon
+ch_con /system/etc/.installed_su_daemon
+ch_con /system/app/Superuser.apk
+ch_con /system/app/Maps.apk
+ch_con /system/app/GMS_Maps.apk
+ch_con /system/app/YouTube.apk
+
+/system/xbin/su --install
+
+/sbin/busybox rm /cache/recovery/chattr
+/sbin/busybox rm /cache/recovery/chattr.pie
+/sbin/busybox rm /cache/recovery/su
+/sbin/busybox rm /cache/recovery/mksh
+/sbin/busybox rm /cache/recovery/install-recovery.sh
+/sbin/busybox rm /cache/recovery/99SuperSUDaemon
+/sbin/busybox rm /cache/recovery/.installed_su_daemon
+
+/sbin/busybox sleep 5s
+
+exit 0
