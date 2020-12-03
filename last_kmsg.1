@@ -1,0 +1,1312 @@
+<6>[<0>][0, swapper][    0.000000] Booting Linux on physical CPU 0x100
+<5>[<0>][0, swapper][    0.000000] Linux version 4.9.112-perf+ (cibuild@cibuild) (gcc version 4.9.x 20150123 (prerelease) (GCC) ) #1 SMP PREEMPT Wed Sep 9 16:23:23 CST 2020
+<6>[<0>][0, swapper][    0.000000] Boot CPU: AArch64 Processor [410fd034]
+<6>[<0>][0, swapper][    0.000000] Machine: MTP
+<6>[<0>][0, swapper][    0.000000] efi: Getting EFI parameters from FDT:
+<6>[<0>][0, swapper][    0.000000] efi: UEFI not found.
+<6>[<0>][0, swapper][    0.000000] Reserved memory: created CMA memory pool at 0x000000008f800000, size 8 MiB
+<6>[<0>][0, swapper][    0.000000] OF: reserved mem: initialized node gpu_region@0, compatible id shared-dma-pool
+<6>[<0>][0, swapper][    0.000000] Reserved memory: created CMA memory pool at 0x00000000ffc00000, size 4 MiB
+<6>[<0>][0, swapper][    0.000000] OF: reserved mem: initialized node adsp_region@0, compatible id shared-dma-pool
+<6>[<0>][0, swapper][    0.000000] Reserved memory: created CMA memory pool at 0x00000000fec00000, size 16 MiB
+<6>[<0>][0, swapper][    0.000000] OF: reserved mem: initialized node qseecom_region@0, compatible id shared-dma-pool
+<6>[<0>][0, swapper][    0.000000] Reserved memory: created CMA memory pool at 0x000000008f000000, size 8 MiB
+<6>[<0>][0, swapper][    0.000000] OF: reserved mem: initialized node venus_region@0, compatible id shared-dma-pool
+<3>[<0>][0, swapper][    0.000000] OF: reserved mem: invalid size property in 'mem_dump_region' node.
+<6>[<0>][0, swapper][    0.000000] Reserved memory: created CMA memory pool at 0x00000000fe800000, size 4 MiB
+<6>[<0>][0, swapper][    0.000000] OF: reserved mem: initialized node qseecom_ta_region, compatible id shared-dma-pool
+<6>[<0>][0, swapper][    0.000000] Removed memory: created DMA memory pool at 0x0000000085b00000, size 13 MiB
+<6>[<0>][0, swapper][    0.000000] OF: reserved mem: initialized node other_ext_region@0, compatible id removed-dma-pool
+<6>[<0>][0, swapper][    0.000000] Removed memory: created DMA memory pool at 0x0000000086800000, size 85 MiB
+<6>[<0>][0, swapper][    0.000000] OF: reserved mem: initialized node modem_region@0, compatible id removed-dma-pool
+<6>[<0>][0, swapper][    0.000000] Removed memory: created DMA memory pool at 0x000000008bd00000, size 17 MiB
+<6>[<0>][0, swapper][    0.000000] OF: reserved mem: initialized node adsp_fw_region@0, compatible id removed-dma-pool
+<6>[<0>][0, swapper][    0.000000] Removed memory: created DMA memory pool at 0x000000008ce00000, size 7 MiB
+<6>[<0>][0, swapper][    0.000000] OF: reserved mem: initialized node wcnss_fw_region@0, compatible id removed-dma-pool
+<6>[<0>][0, swapper][    0.000000] cma: Reserved 16 MiB at 0x00000000fd800000
+<7>[<0>][0, swapper][    0.000000] On node 0 totalpages: 492800
+<7>[<0>][0, swapper][    0.000000]   DMA zone: 7700 pages used for memmap
+<7>[<0>][0, swapper][    0.000000]   DMA zone: 0 pages reserved
+<7>[<0>][0, swapper][    0.000000]   DMA zone: 492800 pages, LIFO batch:31
+<6>[<0>][0, swapper][    0.000000] psci: probing for conduit method from DT.
+<6>[<0>][0, swapper][    0.000000] psci: PSCIv1.0 detected in firmware.
+<6>[<0>][0, swapper][    0.000000] psci: Using standard PSCI v0.2 function IDs
+<6>[<0>][0, swapper][    0.000000] psci: MIGRATE_INFO_TYPE not supported.
+<6>[<0>][0, swapper][    0.000000] psci: SMC Calling Convention v1.0
+<4>[<0>][0, swapper][    0.000000] Did not receive the expected number of bytes from PRNG: 0
+<6>[<0>][0, swapper][    0.000000] percpu: Embedded 23 pages/cpu @ffffffe33d60c000 s55192 r8192 d30824 u94208
+<7>[<0>][0, swapper][    0.000000] pcpu-alloc: s55192 r8192 d30824 u94208 alloc=23*4096
+<7>[<0>][0, swapper][    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+<6>[<0>][0, swapper][    0.000000] CPU features: enabling workaround for ARM erratum 845719
+<6>[<0>][0, swapper][    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 485100
+<3>[<0>][0, swapper][    0.000000] [wt_boot_reason]:powerkey
+<6>[<0>][0, swapper][    0.000000] device-mapper: init: will configure 1 devices
+<6>[<0>][0, swapper][    0.000000] log_buf_len individual max cpu contribution: 131072 bytes
+<6>[<0>][0, swapper][    0.000000] log_buf_len total cpu_extra contributions: 393216 bytes
+<6>[<0>][0, swapper][    0.000000] log_buf_len min size: 131072 bytes
+<6>[<0>][0, swapper][    0.000000] log_buf_len: 524288 bytes
+<6>[<0>][0, swapper][    0.000000] early log buf free: 125448(95%)
+<6>[<0>][0, swapper][    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+<6>[<0>][0, swapper][    0.000000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+<6>[<0>][0, swapper][    0.000000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+<6>[<0>][0, swapper][    0.000000] Memory: 1816344K/1971200K available (15868K kernel code, 1568K rwdata, 6460K rodata, 4096K init, 1234K bss, 97512K reserved, 57344K cma-reserved)
+<5>[<0>][0, swapper][    0.000000] Virtual kernel memory layout:
+<5>[<0>][0, swapper][    0.000000]     modules : 0xffffff8000000000 - 0xffffff8008000000   (   128 MB)
+<5>[<0>][0, swapper][    0.000000]     vmalloc : 0xffffff8008000000 - 0xffffffbebfff0000   (   250 GB)
+<5>[<0>][0, swapper][    0.000000]       .text : 0xffffff86ef080000 - 0xffffff86f0000000   ( 15872 KB)
+<5>[<0>][0, swapper][    0.000000]     .rodata : 0xffffff86f0000000 - 0xffffff86f0800000   (  8192 KB)
+<5>[<0>][0, swapper][    0.000000]       .init : 0xffffff86f0800000 - 0xffffff86f0c00000   (  4096 KB)
+<5>[<0>][0, swapper][    0.000000]       .data : 0xffffff86f0c00000 - 0xffffff86f0d88200   (  1569 KB)
+<5>[<0>][0, swapper][    0.000000]        .bss : 0xffffff86f0d88200 - 0xffffff86f0ebca7c   (  1235 KB)
+<5>[<0>][0, swapper][    0.000000]     fixed   : 0xffffffbefe7fb000 - 0xffffffbefec00000   (  4116 KB)
+<5>[<0>][0, swapper][    0.000000]     PCI I/O : 0xffffffbefee00000 - 0xffffffbeffe00000   (    16 MB)
+<5>[<0>][0, swapper][    0.000000]     vmemmap : 0xffffffbf00000000 - 0xffffffc000000000   (     4 GB maximum)
+<5>[<0>][0, swapper][    0.000000]               0xffffffbf8b000000 - 0xffffffbf8d000000   (    32 MB actual)
+<5>[<0>][0, swapper][    0.000000]     memory  : 0xffffffe2c0000000 - 0xffffffe340000000   (  2048 MB)
+<6>[<0>][0, swapper][    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+<6>[<0>][0, swapper/0][    0.000000] Preemptible hierarchical RCU implementation.
+<6>[<0>][0, swapper/0][    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+<6>[<0>][0, swapper/0][    0.000000] 	RCU restricting CPUs from NR_CPUS=8 to nr_cpu_ids=4.
+<6>[<0>][0, swapper/0][    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+<4>[<0>][0, swapper/0][    0.000000] 
+<4>[<0>][0, swapper/0][    0.000000] **********************************************************
+<4>[<0>][0, swapper/0][    0.000000] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+<4>[<0>][0, swapper/0][    0.000000] **                                                      **
+<4>[<0>][0, swapper/0][    0.000000] ** trace_printk() being used. Allocating extra memory.  **
+<4>[<0>][0, swapper/0][    0.000000] **                                                      **
+<4>[<0>][0, swapper/0][    0.000000] ** This means that this is a DEBUG kernel and it is     **
+<4>[<0>][0, swapper/0][    0.000000] ** unsafe for production use.                           **
+<4>[<0>][0, swapper/0][    0.000000] **                                                      **
+<4>[<0>][0, swapper/0][    0.000000] ** If you see this message and you are not debugging    **
+<4>[<0>][0, swapper/0][    0.000000] ** the kernel, report this immediately to your vendor!  **
+<4>[<0>][0, swapper/0][    0.000000] **                                                      **
+<4>[<0>][0, swapper/0][    0.000000] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+<4>[<0>][0, swapper/0][    0.000000] **********************************************************
+<6>[<0>][0, swapper/0][    0.000000] NR_IRQS:64 nr_irqs:64 0
+<6>[<0>][0, swapper/0][    0.000000] 	Offload RCU callbacks from all CPUs
+<6>[<0>][0, swapper/0][    0.000000] 	Offload RCU callbacks from CPUs: 0-3.
+<6>[<0>][0, swapper/0][    0.000000] arm_arch_timer: Architected cp15 and mmio timer(s) running at 19.20MHz (virt/virt).
+<6>[<0>][0, swapper/0][    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+<6>[<0>][0, swapper/0][    0.000004] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+<6>[<0>][0, swapper/0][    0.000022] clocksource: Switched to clocksource arch_sys_counter
+<6>[<0>][0, swapper/0][    0.001354] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+<6>[<0>][0, swapper/0][    0.001368] pid_max: default: 32768 minimum: 301
+<6>[<0>][0, swapper/0][    0.001444] Security Framework initialized
+<6>[<0>][0, swapper/0][    0.001456] SELinux:  Initializing.
+<7>[<0>][0, swapper/0][    0.001509] SELinux:  Starting in permissive mode
+<6>[<0>][0, swapper/0][    0.001540] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+<6>[<0>][0, swapper/0][    0.001552] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+<3>[<0>][1, swapper/0][    0.002468] /cpus/cpu@100: Missing clock-frequency property
+<3>[<0>][1, swapper/0][    0.002486] /cpus/cpu@101: Missing clock-frequency property
+<3>[<0>][1, swapper/0][    0.002499] /cpus/cpu@102: Missing clock-frequency property
+<3>[<0>][1, swapper/0][    0.002514] /cpus/cpu@103: Missing clock-frequency property
+<6>[<0>][1, swapper/0][    0.002566] sched-energy: Sched-energy-costs installed from DT
+<6>[<0>][1, swapper/0][    0.002582] ASID allocator initialised with 32768 entries
+<6>[<0>][1, swapper/0][    0.021324] MSM Memory Dump base table set up
+<6>[<0>][1, swapper/0][    0.021356] MSM Memory Dump apps data table set up
+<6>[<0>][1, swapper/0][    0.021516] EFI services will not be available.
+<6>[<1>][0, swapper/1][    0.030297] CPU1: Booted secondary processor [410fd034]
+<6>[<2>][0, swapper/2][    0.038864] CPU2: Booted secondary processor [410fd034]
+<6>[<3>][0, swapper/3][    0.047396] CPU3: Booted secondary processor [410fd034]
+<6>[<0>][1, swapper/0][    0.047595] Brought up 4 CPUs
+<6>[<0>][1, swapper/0][    0.047627] SMP: Total of 4 processors activated.
+<6>[<0>][1, swapper/0][    0.047638] CPU features: detected feature: 32-bit EL0 Support
+<6>[<0>][1, swapper/0][    0.047648] CPU features: kernel page table isolation forced OFF by command line option
+<6>[<0>][1, swapper/0][    0.047662] CPU: All CPU(s) started at EL1
+<6>[<0>][13, migration/0][    0.047704] alternatives: patching kernel code
+<6>[<0>][1, swapper/0][    0.047895] CPU3: update max cpu_capacity 1024
+<6>[<3>][0, swapper/3][    0.050063] CPU3: update max cpu_capacity 1024
+<6>[<1>][1, swapper/0][    0.108813] DMI not present or invalid.
+<6>[<2>][1, swapper/0][    0.109188] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+<6>[<2>][1, swapper/0][    0.109208] futex hash table entries: 1024 (order: 5, 131072 bytes)
+<6>[<1>][1, swapper/0][    0.111833] pinctrl core: initialized pinctrl subsystem
+<6>[<1>][1, swapper/0][    0.112639] NET: Registered protocol family 16
+<6>[<1>][1, swapper/0][    0.114610] schedtune: init normalization constants...
+<6>[<1>][1, swapper/0][    0.114624] schedtune: CLUSTER[0-3]      min_pwr:     1 max_pwr:   120
+<6>[<1>][1, swapper/0][    0.114636] schedtune: CPU[0]            min_pwr:    40 max_pwr:   470
+<6>[<1>][1, swapper/0][    0.114646] schedtune: CPU[1]            min_pwr:    40 max_pwr:   470
+<6>[<1>][1, swapper/0][    0.114656] schedtune: CPU[2]            min_pwr:    40 max_pwr:   470
+<6>[<1>][1, swapper/0][    0.114666] schedtune: CPU[3]            min_pwr:    40 max_pwr:   470
+<6>[<1>][1, swapper/0][    0.114675] schedtune: SYSTEM            min_pwr:   161 max_pwr:  2000
+<6>[<1>][1, swapper/0][    0.114685] schedtune: using normalization constants mul: 488117545 sh1: 1 sh2: 10
+<6>[<1>][1, swapper/0][    0.114693] schedtune: verify normalization constants...
+<6>[<1>][1, swapper/0][    0.114702] schedtune: max_pwr/2^0: 1839 => norm_pwr:  1024
+<6>[<1>][1, swapper/0][    0.114711] schedtune: max_pwr/2^1:  919 => norm_pwr:   511
+<6>[<1>][1, swapper/0][    0.114720] schedtune: max_pwr/2^2:  459 => norm_pwr:   255
+<6>[<1>][1, swapper/0][    0.114729] schedtune: max_pwr/2^3:  229 => norm_pwr:   127
+<6>[<1>][1, swapper/0][    0.114737] schedtune: max_pwr/2^4:  114 => norm_pwr:    63
+<6>[<1>][1, swapper/0][    0.114746] schedtune: max_pwr/2^5:   57 => norm_pwr:    31
+<6>[<1>][1, swapper/0][    0.114755] schedtune: configured to support 5 boost groups
+<6>[<0>][1, swapper/0][    0.116569] cpuidle: using governor menu
+<6>[<1>][1, swapper/0][    0.117761] cpuidle: using governor qcom
+<6>[<1>][1, swapper/0][    0.122718] vdso: 2 pages (1 code @ ffffff86f0007000, 1 data @ ffffff86f0c04000)
+<6>[<1>][1, swapper/0][    0.122747] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+<6>[<1>][1, swapper/0][    0.123542] DMA: preallocated 256 KiB pool for atomic allocations
+<3>[<1>][1, swapper/0][    0.320456] pstore: allocate compression buffer error!
+<6>[<1>][1, swapper/0][    0.330661] console [pstore-1] enabled
+<6>[<1>][1, swapper/0][    0.330810] pstore: Registered ramoops as persistent store backend
+<6>[<1>][1, swapper/0][    0.330899] ramoops: attached 0x100000@0x92100000, ecc: 4/0
+<3>[<1>][1, swapper/0][    0.331392] msm8937-pinctrl 1000000.pinctrl: invalid resource
+<3>[<1>][1, swapper/0][    0.341507] unable to find DT imem DLOAD mode node
+<3>[<1>][1, swapper/0][    0.342890] unable to find DT imem EDLOAD mode node
+<6>[<1>][1, swapper/0][    0.346229] sps:sps is ready.
+<6>[<1>][1, swapper/0][    0.348139] cpu-clock-8939 b011050.qcom,cpu-clock-8939: No PVS version available. Defaulting to 0!
+<6>[<1>][1, swapper/0][    0.348235] cpu-clock-8939 b011050.qcom,cpu-clock-8939: Speed bin: 4 PVS Version: 0
+<3>[<1>][1, swapper/0][    0.351696] smd_channel_probe_now: allocation table not initialized
+<3>[<1>][1, swapper/0][    0.352580] smd_channel_probe_now: allocation table not initialized
+<3>[<1>][1, swapper/0][    0.353140] smd_channel_probe_now: allocation table not initialized
+<4>[<1>][1, swapper/0][    0.354062] msm_rpm_glink_dt_parse: qcom,rpm-glink compatible not matches
+<6>[<1>][1, swapper/0][    0.354574] pm8953_s1: Bringing 1uV into 16-16uV
+<6>[<1>][1, swapper/0][    0.355182] pm8953_s2_level: Bringing 1uV into 16-16uV
+<6>[<1>][1, swapper/0][    0.355631] pm8953_s2_floor_level: Bringing 1uV into 16-16uV
+<6>[<0>][1, swapper/0][    0.356291] pm8953_s2_level_ao: Bringing 1uV into 16-16uV
+<6>[<0>][1, swapper/0][    0.368574] pm8953_s7_level_ao: Bringing 1uV into 16-16uV
+<6>[<0>][1, swapper/0][    0.371124] msm_watchdog b017000.qcom,wdt: wdog absent resource not present
+<6>[<1>][1, swapper/0][    0.372008] msm_watchdog b017000.qcom,wdt: MSM Watchdog Initialized
+<6>[<0>][45, kworker/u8:1][    0.372519] spmi spmi-0: PMIC arbiter version v2 (0x20010000)
+<6>[<1>][1, swapper/0][    0.372932] msm-sn-fuse a60a8.snfuse: SN interface initialized
+<6>[<1>][1, swapper/0][    0.373162] msm-secboot-fuse a01d0.secbootfuse: Secboot-fuse interface initialized
+<6>[<1>][1, swapper/0][    0.374793] platform soc:qcom,adsprpc-mem: assigned reserved memory node adsp_region@0
+<6>[<0>][45, kworker/u8:1][    0.376513] pm8953_s5_avs_limit: Bringing 0uV into 490000-490000uV
+<6>[<1>][1, swapper/0][    0.376789] platform 4080000.qcom,mss: assigned reserved memory node modem_region@0
+<6>[<0>][45, kworker/u8:1][    0.376802] spm_regulator_probe: name=pm8953_s5, range=LV, voltage=735000 uV, mode=AUTO, step rate=2400 uV/us
+<6>[<1>][1, swapper/0][    0.377184] platform c200000.qcom,lpass: assigned reserved memory node adsp_fw_region@0
+<6>[<1>][1, swapper/0][    0.377494] platform a21b000.qcom,pronto: assigned reserved memory node wcnss_fw_region@0
+<6>[<1>][1, swapper/0][    0.377741] platform 1de0000.qcom,venus: assigned reserved memory node venus_region@0
+<3>[<1>][1, swapper/0][    0.378968] cpr_regulator_probe: apc_corner: mem_acc intialization error rc=-517
+<3>[<0>][45, kworker/u8:1][    0.381477] LCDB: qpnp_lcdb_regulator_probe: Failed to parse dt rc=-517
+<6>[<1>][1, swapper/0][    0.412715] mdss_pll_probe: MDSS pll label = MDSS DSI 0 PLL
+<6>[<1>][1, swapper/0][    0.412819] mdss_pll_probe: mdss_pll_probe: label=MDSS DSI 0 PLL PLL SSC enabled
+<4>[<1>][1, swapper/0][    0.412886] mdss_pll_util_parse_dt_supply: : error reading ulp load. rc=-22
+<4>[<1>][1, swapper/0][    0.412981] mdss_pll_util_parse_dt_supply: : error reading ulp load. rc=-22
+<3>[<1>][1, swapper/0][    0.413120] mdss_pll_util_resource_init+0x2c/0xac->msm_mdss_config_vreg: gdsc get failed. rc=-517
+<3>[<1>][1, swapper/0][    0.413208] mdss_pll_util_resource_init: Vreg config failed rc=-517
+<3>[<1>][1, swapper/0][    0.413295] mdss_pll_probe: Pll ndx=0 resource init failed rc=-517
+<6>[<1>][1, swapper/0][    0.413380] mdss_pll_probe: MDSS pll label = MDSS DSI 1 PLL
+<6>[<1>][1, swapper/0][    0.413470] mdss_pll_probe: mdss_pll_probe: label=MDSS DSI 1 PLL PLL SSC enabled
+<4>[<1>][1, swapper/0][    0.413570] mdss_pll_util_parse_dt_supply: : error reading ulp load. rc=-22
+<4>[<1>][1, swapper/0][    0.413627] mdss_pll_util_parse_dt_supply: : error reading ulp load. rc=-22
+<3>[<1>][1, swapper/0][    0.413746] mdss_pll_util_resource_init+0x2c/0xac->msm_mdss_config_vreg: gdsc get failed. rc=-517
+<3>[<1>][1, swapper/0][    0.413832] mdss_pll_util_resource_init: Vreg config failed rc=-517
+<3>[<1>][1, swapper/0][    0.413918] mdss_pll_probe: Pll ndx=1 resource init failed rc=-517
+<6>[<1>][1, swapper/0][    0.416562] KPI: Bootloader start count = 31010
+<6>[<1>][1, swapper/0][    0.416625] KPI: Bootloader end count = 114653
+<6>[<1>][1, swapper/0][    0.416710] KPI: Bootloader display count = 62870
+<6>[<1>][1, swapper/0][    0.416760] KPI: Bootloader load kernel count = 2180
+<6>[<1>][1, swapper/0][    0.416846] KPI: Kernel MPM timestamp = 135550
+<6>[<1>][1, swapper/0][    0.416895] KPI: Kernel MPM Clock frequency = 32768
+<6>[<1>][1, swapper/0][    0.416996] socinfo_print: v0.10, id=354, ver=1.0, raw_id=190, raw_ver=0, hw_plat=8, hw_plat_ver=65536
+<6>[<1>][1, swapper/0][    0.416996]  accessory_chip=0, hw_plat_subtype=0, pmic_model=65558, pmic_die_revision=65536 foundry_id=1 serial_number=1632247978
+<3>[<1>][1, swapper/0][    0.418781] arm-smmu 1c40000.arm,smmu-kgsl: Couldn't get clock: gpu_ahb_clk
+<3>[<1>][1, swapper/0][    0.419246] arm-smmu 1e00000.qcom,iommu: Couldn't get clock: iface_clk
+<5>[<1>][1, swapper/0][    0.422175] SCSI subsystem initialized
+<6>[<1>][1, swapper/0][    0.422426] usbcore: registered new interface driver usbfs
+<6>[<1>][1, swapper/0][    0.422558] usbcore: registered new interface driver hub
+<6>[<1>][1, swapper/0][    0.422750] usbcore: registered new device driver usb
+<7>[<1>][1, swapper/0][    0.423583] touchscreen touchpanel: touch info interface ready
+<6>[<1>][1, swapper/0][    0.423924] qcom,qpnp-power-on 200f000.qcom,spmi:qcom,pm8953@0:qcom,power-on@800: PMIC@SID0 Power-on reason: Triggered from Hard Reset and 'cold' boot
+<6>[<1>][1, swapper/0][    0.424031] qcom,qpnp-power-on 200f000.qcom,spmi:qcom,pm8953@0:qcom,power-on@800: PMIC@SID0: Power-off reason: Triggered from PS_HOLD (PS_HOLD/MSM controlled shutdown)
+<6>[<1>][1, swapper/0][    0.424398] input: qpnp_pon as /devices/virtual/input/input0
+<4>[<1>][1, swapper/0][    0.425015] Add qpnp_pon_probe end
+<6>[<1>][1, swapper/0][    0.425234] qcom,qpnp-power-on 200f000.qcom,spmi:qcom,pmi632@2:qcom,power-on@800: No PON config. specified
+<6>[<1>][1, swapper/0][    0.425365] qcom,qpnp-power-on 200f000.qcom,spmi:qcom,pmi632@2:qcom,power-on@800: PMIC@SID2 Power-on reason: Triggered from PON1 (secondary PMIC) and 'cold' boot
+<6>[<1>][1, swapper/0][    0.425475] qcom,qpnp-power-on 200f000.qcom,spmi:qcom,pmi632@2:qcom,power-on@800: PMIC@SID2: Power-off reason: Triggered from GP2 (Keypad_Reset2)
+<4>[<1>][1, swapper/0][    0.425694] Add qpnp_pon_probe end
+<6>[<1>][1, swapper/0][    0.426224] i2c-msm-v2 78b6000.i2c: probing driver i2c-msm-v2
+<3>[<1>][1, swapper/0][    0.426373] i2c-msm-v2 78b6000.i2c: error on clk_get(core_clk):-517
+<3>[<1>][1, swapper/0][    0.426429] i2c-msm-v2 78b6000.i2c: error probe() failed with err:-517
+<6>[<1>][1, swapper/0][    0.426635] i2c-msm-v2 78b7000.i2c: probing driver i2c-msm-v2
+<3>[<1>][1, swapper/0][    0.426751] i2c-msm-v2 78b7000.i2c: error on clk_get(core_clk):-517
+<3>[<1>][1, swapper/0][    0.426806] i2c-msm-v2 78b7000.i2c: error probe() failed with err:-517
+<6>[<1>][1, swapper/0][    0.427014] i2c-msm-v2 7af5000.i2c: probing driver i2c-msm-v2
+<3>[<1>][1, swapper/0][    0.427130] i2c-msm-v2 7af5000.i2c: error on clk_get(core_clk):-517
+<3>[<1>][1, swapper/0][    0.427220] i2c-msm-v2 7af5000.i2c: error probe() failed with err:-517
+<6>[<1>][1, swapper/0][    0.427642] media: Linux media interface: v0.10
+<6>[<1>][1, swapper/0][    0.427761] Linux video capture interface: v2.00
+<6>[<1>][1, swapper/0][    0.427914] BATTERY: batterydata_init: Battery-data device created!
+<6>[<0>][1, swapper/0][    0.438091] EDAC MC: Ver: 3.0.0
+<3>[<1>][1, swapper/0][    0.439633] dmi: Firmware registration failed.
+<6>[<1>][1, swapper/0][    0.440850] platform soc:qcom,ion:qcom,ion-heap@27: assigned reserved memory node qseecom_region@0
+<6>[<1>][1, swapper/0][    0.441083] platform soc:qcom,ion:qcom,ion-heap@19: assigned reserved memory node qseecom_ta_region
+<6>[<1>][1, swapper/0][    0.441410] ION heap system created
+<6>[<0>][1, swapper/0][    0.441702] ION heap qsecom created at 0x00000000fec00000 with size 1000000
+<6>[<0>][1, swapper/0][    0.441798] ION heap qsecom_ta created at 0x00000000fe800000 with size 400000
+<6>[<0>][1, swapper/0][    0.443764] PMIC@SID0: PM8953 v1.0 options: 2, 2, 0, 0
+<6>[<0>][1, swapper/0][    0.443981] PMIC@SID2: PMI632 v2.0 options: 0, 0, 0, 0
+<6>[<0>][1, swapper/0][    0.445973] SDAM base=0xb600 size=128 registered successfully
+<6>[<0>][1, swapper/0][    0.446299] Advanced Linux Sound Architecture Driver Initialized.
+<6>[<0>][1, swapper/0][    0.446848] Bluetooth: Core ver 2.22
+<6>[<0>][1, swapper/0][    0.446931] NET: Registered protocol family 31
+<6>[<0>][1, swapper/0][    0.447017] Bluetooth: HCI device and connection manager initialized
+<6>[<0>][1, swapper/0][    0.447073] Bluetooth: HCI socket layer initialized
+<6>[<0>][1, swapper/0][    0.447163] Bluetooth: L2CAP socket layer initialized
+<6>[<1>][1, swapper/0][    0.447778] NetLabel: Initializing
+<6>[<1>][1, swapper/0][    0.447867] NetLabel:  domain hash size = 128
+<6>[<1>][1, swapper/0][    0.447917] NetLabel:  protocols = UNLABELED CIPSOv4
+<6>[<1>][1, swapper/0][    0.448052] NetLabel:  unlabeled traffic allowed by default
+<6>[<1>][41, kworker/1:1][    0.448852] gfx3d_clk_src: set OPP pair(19200000 Hz: 128 uV) on 1c00000.qcom,kgsl-3d0
+<6>[<1>][41, kworker/1:1][    0.449177] gfx3d_clk_src: set OPP pair(200000000 Hz: 128 uV) on 1c00000.qcom,kgsl-3d0
+<6>[<1>][41, kworker/1:1][    0.449955] gfx3d_clk_src: set OPP pair(650000000 Hz: 384 uV) on 1c00000.qcom,kgsl-3d0
+<6>[<1>][41, kworker/1:1][    0.463050] qcom,gcc-spm-8952 b111200.qcom,spm: Registered GCC SPM clocks
+<6>[<1>][41, kworker/1:1][    0.463167] qcom,gcc-8952 1800000.qcom,gcc: Registered GCC clocks
+<6>[<1>][41, kworker/1:1][    0.463313] cpu-clock-8939 b011050.qcom,cpu-clock-8939: No PVS version available. Defaulting to 0!
+<6>[<1>][41, kworker/1:1][    0.463404] cpu-clock-8939 b011050.qcom,cpu-clock-8939: Speed bin: 4 PVS Version: 0
+<6>[<1>][41, kworker/1:1][    0.463796] cpr_efuse_init: apc_corner: efuse_addr = 0x00000000000a4000 (len=0x1000)
+<6>[<1>][41, kworker/1:1][    0.463870] cpr_read_fuse_revision: apc_corner: fuse revision = 1
+<6>[<1>][41, kworker/1:1][    0.463963] cpr_parse_speed_bin_fuse: apc_corner: [row: 37]: 0x78691071614a20aa, speed_bits = 4
+<6>[<1>][41, kworker/1:1][    0.464112] cpr_pvs_init: apc_corner: pvs voltage: [750000 775000 890000] uV
+<6>[<1>][41, kworker/1:1][    0.464202] cpr_pvs_init: apc_corner: ceiling voltage: [810000 845000 980000] uV
+<6>[<1>][41, kworker/1:1][    0.464290] cpr_pvs_init: apc_corner: floor voltage: [700000 700000 790000] uV
+<6>[<1>][41, kworker/1:1][    0.464454] cpr_init_cpr_parameters: apc_corner: up threshold = 2, down threshold = 4
+<6>[<1>][41, kworker/1:1][    0.464558] cpr_init_cpr_parameters: apc_corner: CPR is enabled by default.
+<6>[<1>][41, kworker/1:1][    0.464662] cpr_init_cpr_efuse: apc_corner: [row:67] = 0x5b4a5e12ce88ed22
+<6>[<1>][41, kworker/1:1][    0.464760] cpr_init_cpr_efuse: apc_corner: Corner[1]: ro_sel = 5, target quot = 663
+<6>[<1>][41, kworker/1:1][    0.464849] cpr_init_cpr_efuse: apc_corner: Corner[2]: ro_sel = 5, target quot = 718
+<6>[<1>][41, kworker/1:1][    0.464938] cpr_init_cpr_efuse: apc_corner: Corner[3]: ro_sel = 5, target quot = 948
+<6>[<1>][41, kworker/1:1][    0.465005] cpr_adjust_target_quots: apc_corner: Corner[1]: adjusted target quot = 589
+<6>[<1>][41, kworker/1:1][    0.465098] cpr_adjust_target_quots: apc_corner: Corner[3]: adjusted target quot = 918
+<6>[<1>][41, kworker/1:1][    0.465244] cpr_get_corner_quot_adjustment: apc_corner: fuse corner 2 quotient adjustment scaling factor: 0.671
+<6>[<1>][41, kworker/1:1][    0.465333] cpr_get_corner_quot_adjustment: apc_corner: fuse corner 3 quotient adjustment scaling factor: 0.385
+<6>[<1>][41, kworker/1:1][    0.465437] cpr_virtual_corner_quot_adjust: apc_corner: corner=3 adjusted quotient=778
+<6>[<1>][41, kworker/1:1][    0.465536] cpr_get_corner_quot_adjustment: apc_corner: adjusted quotient[1] = 589
+<6>[<1>][41, kworker/1:1][    0.465622] cpr_get_corner_quot_adjustment: apc_corner: adjusted quotient[2] = 718
+<6>[<1>][41, kworker/1:1][    0.465709] cpr_get_corner_quot_adjustment: apc_corner: adjusted quotient[3] = 778
+<6>[<1>][41, kworker/1:1][    0.465795] cpr_get_corner_quot_adjustment: apc_corner: adjusted quotient[4] = 837
+<6>[<1>][41, kworker/1:1][    0.465881] cpr_get_corner_quot_adjustment: apc_corner: adjusted quotient[5] = 896
+<6>[<1>][41, kworker/1:1][    0.465932] cpr_get_corner_quot_adjustment: apc_corner: adjusted quotient[6] = 918
+<6>[<1>][41, kworker/1:1][    0.466054] cpr_fill_override_voltage: apc_corner: ceiling override voltage: [810000 845000 885000 980000 980000 980000] uV
+<6>[<1>][41, kworker/1:1][    0.466545] cpr_init_floor_to_ceiling_range: apc_corner: Final floor override voltages: [700000 725000 790000 790000 815000 825000] uV
+<6>[<1>][41, kworker/1:1][    0.466699] cpr_config: apc_corner: Timer count: 0x17700 (for 5000 us)
+<6>[<1>][41, kworker/1:1][    0.467124] apc_corner: Bringing 0uV into 1-1uV
+<6>[<1>][41, kworker/1:1][    0.468486] LCDB: qpnp_lcdb_regulator_probe: LCDB module successfully registered! lcdb_en=1 ldo_voltage=5500mV ncp_voltage=5500mV bst_voltage=5650mV
+<6>[<1>][41, kworker/1:1][    0.471589] mdss_pll_probe: MDSS pll label = MDSS DSI 0 PLL
+<6>[<1>][41, kworker/1:1][    0.471691] mdss_pll_probe: mdss_pll_probe: label=MDSS DSI 0 PLL PLL SSC enabled
+<4>[<1>][41, kworker/1:1][    0.471795] mdss_pll_util_parse_dt_supply: : error reading ulp load. rc=-22
+<4>[<1>][41, kworker/1:1][    0.471889] mdss_pll_util_parse_dt_supply: : error reading ulp load. rc=-22
+<6>[<1>][41, kworker/1:1][    0.472569] dsi_pll_clock_register_12nm: Registered DSI PLL ndx=0 clocks successfully
+<6>[<1>][41, kworker/1:1][    0.472736] mdss_pll_probe: MDSS pll label = MDSS DSI 1 PLL
+<6>[<1>][41, kworker/1:1][    0.472827] mdss_pll_probe: mdss_pll_probe: label=MDSS DSI 1 PLL PLL SSC enabled
+<4>[<1>][41, kworker/1:1][    0.472930] mdss_pll_util_parse_dt_supply: : error reading ulp load. rc=-22
+<4>[<1>][41, kworker/1:1][    0.473025] mdss_pll_util_parse_dt_supply: : error reading ulp load. rc=-22
+<6>[<1>][41, kworker/1:1][    0.474479] dsi_pll_clock_register_12nm: Registered DSI PLL ndx=1 clocks successfully
+<5>[<1>][41, kworker/1:1][    0.474911] arm-smmu 1c40000.arm,smmu-kgsl: 	(IDR0.CTTW overridden by dma-coherent property)
+<5>[<1>][41, kworker/1:1][    0.475005] arm-smmu 1c40000.arm,smmu-kgsl: 	stream matching with 4 register groups, mask 0x7fff
+<5>[<1>][41, kworker/1:1][    0.476476] arm-smmu 1e00000.qcom,iommu: 	(IDR0.CTTW overridden by dma-coherent property)
+<5>[<1>][41, kworker/1:1][    0.476574] arm-smmu 1e00000.qcom,iommu: 	stream matching with 123 register groups, mask 0x7fff
+<3>[<1>][41, kworker/1:1][    0.476757] arm-smmu 1e00000.qcom,iommu: found 32 context interrupt(s) but have 30 context banks. assuming 30 context interrupts.
+<6>[<1>][41, kworker/1:1][    0.477547] iommu: Adding device soc:qcom,msm-audio-ion to group 0
+<6>[<1>][41, kworker/1:1][    0.477863] i2c-msm-v2 78b6000.i2c: probing driver i2c-msm-v2
+<3>[<1>][41, kworker/1:1][    0.478004] AXI: msm_bus_scale_register_client(): msm_bus_scale_register_client: Bus driver not ready.
+<6>[<1>][41, kworker/1:1][    0.478056] i2c-msm-v2 78b6000.i2c: msm_bus_scale_register_client(mstr-id:86):0 (not a problem)
+<3>[<1>][41, kworker/1:1][    0.478391] AXI: msm_bus_scale_register_client(): msm_bus_scale_register_client: Bus driver not ready.
+<6>[<1>][41, kworker/1:1][    0.478754] i2c-msm-v2 78b7000.i2c: probing driver i2c-msm-v2
+<3>[<1>][41, kworker/1:1][    0.478882] AXI: msm_bus_scale_register_client(): msm_bus_scale_register_client: Bus driver not ready.
+<6>[<1>][41, kworker/1:1][    0.478969] i2c-msm-v2 78b7000.i2c: msm_bus_scale_register_client(mstr-id:86):0 (not a problem)
+<3>[<1>][41, kworker/1:1][    0.479255] AXI: msm_bus_scale_register_client(): msm_bus_scale_register_client: Bus driver not ready.
+<6>[<1>][41, kworker/1:1][    0.479768] i2c-msm-v2 7af5000.i2c: probing driver i2c-msm-v2
+<3>[<1>][41, kworker/1:1][    0.479895] AXI: msm_bus_scale_register_client(): msm_bus_scale_register_client: Bus driver not ready.
+<6>[<1>][41, kworker/1:1][    0.479982] i2c-msm-v2 7af5000.i2c: msm_bus_scale_register_client(mstr-id:84):0 (not a problem)
+<3>[<1>][41, kworker/1:1][    0.480376] AXI: msm_bus_scale_register_client(): msm_bus_scale_register_client: Bus driver not ready.
+<6>[<1>][41, kworker/1:1][    0.480788] cpu-clock-8939 b011050.qcom,cpu-clock-8939: No PVS version available. Defaulting to 0!
+<6>[<1>][41, kworker/1:1][    0.480880] cpu-clock-8939 b011050.qcom,cpu-clock-8939: Speed bin: 4 PVS Version: 0
+<6>[<1>][41, kworker/1:1][    0.483096] populate_opp_table: clock-cpu-8939: OPP tables populated (cpu 0 and 3)
+<6>[<1>][41, kworker/1:1][    0.483149] print_opp_table: clock_cpu: a53_c1: OPP voltage for 960000000: 750000
+<6>[<1>][41, kworker/1:1][    0.483238] print_opp_table: clock_cpu: a53_c1: OPP voltage for 2016000000: 890000
+<6>[<1>][41, kworker/1:1][    0.483419] sched-energy energy-costs: cpu=0 eff=1024 [freq=960000 cap=488 power_d0=159] -> [freq=2016000 cap=1024 power_d0=470]
+<6>[<1>][41, kworker/1:1][    0.483507] CPU0: update cpu_capacity 1024
+<6>[<1>][41, kworker/1:1][    0.483599] sched-energy energy-costs: cpu=1 eff=1024 [freq=960000 cap=488 power_d0=159] -> [freq=2016000 cap=1024 power_d0=470]
+<6>[<1>][41, kworker/1:1][    0.483685] CPU1: update cpu_capacity 1024
+<6>[<1>][41, kworker/1:1][    0.483741] sched-energy energy-costs: cpu=2 eff=1024 [freq=960000 cap=488 power_d0=159] -> [freq=2016000 cap=1024 power_d0=470]
+<6>[<1>][41, kworker/1:1][    0.483861] CPU2: update cpu_capacity 1024
+<6>[<1>][41, kworker/1:1][    0.483917] sched-energy energy-costs: cpu=3 eff=1024 [freq=960000 cap=488 power_d0=159] -> [freq=2016000 cap=1024 power_d0=470]
+<6>[<1>][41, kworker/1:1][    0.484003] CPU3: update cpu_capacity 1024
+<6>[<1>][41, kworker/1:1][    0.484763] sched-energy energy-costs: Sched-energy-costs capacity updated
+<6>[<1>][41, kworker/1:1][    0.486229] cpufreq: driver msm up and running
+<6>[<0>][1, swapper/0][    0.486905] clocksource: Switched to clocksource arch_sys_counter
+<6>[<1>][0, swapper/1][    0.490057] CPU2: update max cpu_capacity 1024
+<5>[<2>][1, swapper/0][    0.513681] VFS: Disk quotas dquot_6.6.0
+<6>[<2>][1, swapper/0][    0.513790] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+<3>[<2>][1, swapper/0][    0.513893] msm_bus_fabric_init_driver
+<6>[<2>][1, swapper/0][    0.517665] msm_bus_device 580000.ad-hoc-bus: Bus scaling driver probe successful
+<6>[<2>][1, swapper/0][    0.518766] NET: Registered protocol family 2
+<6>[<2>][1, swapper/0][    0.519201] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+<6>[<2>][1, swapper/0][    0.519338] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+<6>[<2>][1, swapper/0][    0.519568] TCP: Hash tables configured (established 16384 bind 16384)
+<6>[<2>][1, swapper/0][    0.519664] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+<6>[<2>][1, swapper/0][    0.519717] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+<6>[<2>][1, swapper/0][    0.519871] NET: Registered protocol family 1
+<6>[<2>][1, swapper/0][    0.520546] gcc-mdss-8952 soc:qcom,gcc-mdss@1800000: Registered GCC MDSS clocks.
+<6>[<2>][1, swapper/0][    0.521343] Trying to unpack rootfs image as initramfs...
+<6>[<0>][1, swapper/0][    0.646368] Freeing initrd memory: 6304K
+<6>[<0>][1, swapper/0][    0.647300] hw perfevents: enabled with armv8_pmuv3 PMU driver, 7 counters available
+<6>[<2>][1, swapper/0][    0.650012] audit: initializing netlink subsys (disabled)
+<5>[<2>][1, swapper/0][    0.650127] audit: type=2000 audit(0.649:1): initialized
+<5>[<2>][1, swapper/0][    0.650363] Initialise system trusted keyrings
+<6>[<1>][1, swapper/0][    0.650641] workingset: timestamp_bits=62 max_order=19 bucket_order=0
+<6>[<0>][1, swapper/0][    0.654473] Registering sdcardfs 0.1
+<6>[<0>][1, swapper/0][    0.654641] fuse init (API version 7.26)
+<7>[<0>][1, swapper/0][    0.655085] SELinux:  Registering netfilter hooks
+<6>[<0>][1, swapper/0][    0.655250] pfk_ext4 [pfk_ext4_init]: PFK EXT4 inited successfully
+<6>[<0>][1, swapper/0][    0.655306] pfk_f2fs [pfk_f2fs_init]: PFK F2FS inited successfully
+<6>[<0>][1, swapper/0][    0.655338] pfk [pfk_init]: Driver initialized successfully
+<5>[<1>][1, swapper/0][    0.657892] Key type asymmetric registered
+<5>[<1>][1, swapper/0][    0.657930] Asymmetric key parser 'x509' registered
+<6>[<1>][1, swapper/0][    0.657996] io scheduler noop registered
+<6>[<1>][1, swapper/0][    0.658160] io scheduler cfq registered (default)
+<3>[<1>][1, swapper/0][    0.665591] msm_mdss_get_res_byname: 'vbif_nrt_phys' resource not found
+<3>[<1>][1, swapper/0][    0.665667] mdss_mdp_probe+0x1a4/0x1300->msm_mdss_ioremap_byname: 'vbif_nrt_phys' msm_mdss_get_res_byname failed
+<3>[<1>][1, swapper/0][    0.665891] mdss_mdp_irq_clk_register: unable to get clk: lut_clk
+<3>[<1>][1, swapper/0][    0.665930] mdss_mdp_irq_clk_register: unable to get clk: mnoc_clk
+<3>[<1>][1, swapper/0][    0.666246] No change in context(0==0), skip
+<6>[<0>][1, swapper/0][    0.666717] mdss_mdp_pipe_addr_setup: type:0 ftchid:-1 xinid:0 num:0 rect:0 ndx:0x1 prio:0
+<6>[<0>][1, swapper/0][    0.666783] mdss_mdp_pipe_addr_setup: type:1 ftchid:-1 xinid:1 num:3 rect:0 ndx:0x8 prio:1
+<6>[<0>][1, swapper/0][    0.666815] mdss_mdp_pipe_addr_setup: type:1 ftchid:-1 xinid:5 num:4 rect:0 ndx:0x10 prio:2
+<6>[<0>][1, swapper/0][    0.666878] mdss_mdp_pipe_addr_setup: type:2 ftchid:-1 xinid:2 num:6 rect:0 ndx:0x40 prio:3
+<6>[<0>][1, swapper/0][    0.666943] mdss_mdp_pipe_addr_setup: type:3 ftchid:-1 xinid:7 num:10 rect:0 ndx:0x400 prio:0
+<3>[<0>][1, swapper/0][    0.667002] mdss_mdp_parse_dt_handler: Error from prop qcom,mdss-pipe-sw-reset-off : u32 array read
+<3>[<0>][1, swapper/0][    0.667119] mdss_mdp_parse_dt_handler: Error from prop qcom,mdss-ib-factor-overlap : u32 array read
+<3>[<0>][1, swapper/0][    0.667177] mdss_mdp_parse_dt_handler: Error from prop qcom,mdss-bus-througput-factor : u32 array read
+<6>[<0>][1, swapper/0][    0.667397] xlog_status: enable:0, panic:1, dump:2
+<6>[<0>][1, swapper/0][    0.667676] iommu: Adding device 1a00000.qcom,mdss_mdp:qcom,smmu_mdp_unsec_cb to group 1
+<6>[<0>][1, swapper/0][    0.667894] iommu: Adding device 1a00000.qcom,mdss_mdp:qcom,smmu_mdp_sec_cb to group 2
+<6>[<0>][1, swapper/0][    0.668111] mdss_mdp_probe: mdss version = 0x100e0000, bootloader display is on, num 1, intf_sel=0x00000100
+<3>[<1>][1, swapper/0][    0.669897] mdss_smmu_util_parse_dt_clock: clocks are not defined
+<6>[<1>][1, swapper/0][    0.669965] mdss_smmu_probe: iommu v2 domain[0] mapping and clk register successful!
+<3>[<1>][1, swapper/0][    0.670069] mdss_smmu_util_parse_dt_clock: clocks are not defined
+<6>[<1>][1, swapper/0][    0.670126] mdss_smmu_probe: iommu v2 domain[2] mapping and clk register successful!
+<4>[<1>][1, swapper/0][    0.670489] mdss_dsi_get_dt_vreg_data: error reading ulp load. rc=-22
+<4>[<1>][1, swapper/0][    0.670549] mdss_dsi_get_dt_vreg_data: error reading ulp load. rc=-22
+<4>[<1>][1, swapper/0][    0.670610] mdss_dsi_get_dt_vreg_data: error reading ulp load. rc=-22
+<6>[<1>][1, swapper/0][    0.671154] mdss_dsi_ctrl_probe: DSI Ctrl name = MDSS DSI CTRL->0
+<6>[<1>][1, swapper/0][    0.671277] mdss_dsi_find_panel_of_node: cmdline:0:qcom,mdss_dsi_st7703_720p_ski_video:1:none:cfg:single_dsi panel_name:qcom,mdss_dsi_st7703_720p_ski_video
+<6>[<1>][1, swapper/0][    0.671372] mdss_dsi_panel_init: Panel Name = st7703_720p_video_ski
+<6>[<1>][1, swapper/0][    0.671500] mdss_dsi_panel_timing_from_dt: found new timing "qcom,mdss_dsi_st7703_720p_ski_video" (ffffffe2d2327268)
+<3>[<1>][1, swapper/0][    0.671563] mdss_dsi_parse_dcs_cmds: failed, key=qcom,mdss-dsi-post-panel-on-command
+<3>[<1>][1, swapper/0][    0.671619] mdss_dsi_parse_dcs_cmds: failed, key=qcom,mdss-dsi-timing-switch-command
+<4>[<1>][1, swapper/0][    0.671674] mdss_dsi_panel_get_dsc_cfg_np: cannot find dsc config node:
+<3>[<1>][1, swapper/0][    0.671789] mdss_dsi_parse_dcs_cmds: failed, key=qcom,mdss-dsi-idle-on-command
+<3>[<1>][1, swapper/0][    0.671846] mdss_dsi_parse_dcs_cmds: failed, key=qcom,mdss-dsi-idle-off-command
+<6>[<1>][1, swapper/0][    0.671887] mdss_dsi_parse_panel_features: ulps feature disabled
+<6>[<1>][1, swapper/0][    0.671944] mdss_dsi_parse_panel_features: ulps during suspend feature disabled
+<6>[<1>][1, swapper/0][    0.672000] mdss_dsi_parse_dms_config: dynamic switch feature enabled: 0
+<3>[<1>][1, swapper/0][    0.672065] mdss_dsi_parse_dcs_cmds: failed, key=qcom,mdss-dsi-lp-mode-on
+<3>[<1>][1, swapper/0][    0.672123] mdss_dsi_parse_dcs_cmds: failed, key=qcom,mdss-dsi-lp-mode-off
+<4>[<1>][1, swapper/0][    0.672212] mdss_dsi_get_dt_vreg_data: error reading ulp load. rc=-22
+<4>[<1>][1, swapper/0][    0.672270] mdss_dsi_get_dt_vreg_data: error reading ulp load. rc=-22
+<4>[<1>][1, swapper/0][    0.672304] mdss_dsi_get_dt_vreg_data: error reading ulp load. rc=-22
+<4>[<1>][1, swapper/0][    0.672361] mdss_dsi_get_dt_vreg_data: error reading ulp load. rc=-22
+<3>[<1>][1, swapper/0][    0.672530] mdss_dsi_parse_ctrl_params:4133, Unable to read Phy Strength ctrl settings
+<3>[<1>][1, swapper/0][    0.672588] mdss_dsi_parse_ctrl_params:4147, Unable to read Phy regulator settings
+<3>[<1>][1, swapper/0][    0.672643] mdss_dsi_parse_ctrl_params:4167, Unable to read Phy lane configure settings
+<3>[<1>][1, swapper/0][    0.672678] mdss_dsi_parse_ctrl_params:4199 Unable to read qcom,display-id, data=0000000000000000,len=0
+<6>[<1>][1, swapper/0][    0.672740] mdss_dsi_parse_gpio_params: ext vdd gpio not specified
+<3>[<1>][1, swapper/0][    0.672821] msm_mdss_get_res_byname: 'dsi_phy_regulator' resource not found
+<3>[<1>][1, swapper/0][    0.672883] mdss_dsi_retrieve_ctrl_resources+0xc8/0x230->msm_mdss_ioremap_byname: 'dsi_phy_regulator' msm_mdss_get_res_byname failed
+<6>[<1>][1, swapper/0][    0.672940] mdss_dsi_retrieve_ctrl_resources: ctrl_base=ffffff8008705000 ctrl_size=300 phy_base=ffffff8008707400 phy_size=400
+<6>[<0>][1, swapper/0][    0.673143] dsi_panel_device_register: Continuous splash enabled
+<6>[<0>][1, swapper/0][    0.673329] mdss_register_panel: adding framebuffer device 1a94000.qcom,mdss_dsi_ctrl0
+<3>[<0>][1, swapper/0][    0.673675] mdss_dsi_panel_reset before
+<6>[<1>][1, swapper/0][    0.720658] mdss_dsi_ctrl_probe: Dsi Ctrl->0 initialized, DSI rev:0x10040002, PHY rev:0x3
+<6>[<1>][1, swapper/0][    0.721160] mdss_dsi_status_init: DSI status check interval:2000
+<6>[<1>][1, swapper/0][    0.721473] mdss_register_panel: adding framebuffer device soc:qcom,mdss_wb_panel
+<6>[<1>][1, swapper/0][    0.722218] mdss_fb_probe: fb0: split_mode:0 left:0 right:0
+<6>[<1>][1, swapper/0][    0.722574] mdss_fb_register: FrameBuffer[0] 720x1520 registered successfully!
+<6>[<1>][1, swapper/0][    0.722810] mdss_fb_probe: fb1: split_mode:0 left:0 right:0
+<6>[<1>][1, swapper/0][    0.722916] mdss_fb_register: FrameBuffer[1] 640x640 registered successfully!
+<3>[<1>][1, swapper/0][    0.722993] mdss_mdp_splash_parse_dt: splash mem child node is not present
+<3>[<1>][1, swapper/0][    0.723158] qcom-sps-dma 7884000.qcom,sps-dma: dma_async_device_register: device has no channels!
+<3>[<1>][1, swapper/0][    0.723277] qcom-sps-dma 7ac4000.qcom,sps-dma: dma_async_device_register: device has no channels!
+<3>[<1>][1, swapper/0][    0.724527] IPC_RTR: msm_ipc_router_smd_driver_register Already driver registered IPCRTR
+<3>[<1>][1, swapper/0][    0.724599] IPC_RTR: msm_ipc_router_smd_driver_register Already driver registered IPCRTR
+<3>[<2>][1, swapper/0][    0.726277] scm_call failed: func id 0x42000c16, ret: -1, syscall returns: 0x0, 0x0, 0x0
+<6>[<2>][1, swapper/0][    0.726344] hyp_assign_table: Failed to assign memory protection, ret = -5
+<3>[<2>][1, swapper/0][    0.726377] memshare: hyp_assign_phys failed size=2097152 err=-5
+<6>[<2>][1, swapper/0][    0.726459] memshare_child soc:qcom,memshare:qcom,client_1: for memshare_GPS segments only will be dumped.
+<6>[<2>][1, swapper/0][    0.726709] memshare_child soc:qcom,memshare:qcom,client_2: for memshare_FTM segments only will be dumped.
+<3>[<2>][1, swapper/0][    0.728523] scm_call failed: func id 0x42000c16, ret: -1, syscall returns: 0x0, 0x0, 0x0
+<6>[<2>][1, swapper/0][    0.728582] hyp_assign_table: Failed to assign memory protection, ret = -5
+<3>[<2>][1, swapper/0][    0.728639] memshare: hyp_assign_phys failed size=5242880 err=-5
+<6>[<2>][1, swapper/0][    0.728672] memshare_child soc:qcom,memshare:qcom,client_3: for memshare_DIAG segments only will be dumped.
+<3>[<2>][1, swapper/0][    0.730373] minidump-id not found for adsp
+<3>[<2>][1, swapper/0][    0.730535] minidump-id not found for wcnss
+<3>[<2>][1, swapper/0][    0.730712] minidump-id not found for venus
+<6>[<2>][1, swapper/0][    0.730779] subsys-pil-tz 1de0000.qcom,venus: for venus segments only will be dumped.
+<3>[<2>][1, swapper/0][    0.731941] minidump-id not found for modem
+<6>[<2>][1, swapper/0][    0.732303] msm-dcc b3000.dcc: DCC XPU is not specified
+<6>[<2>][1, swapper/0][    0.733518] wcnss: wcnss_wlan probed in built-in mode
+<6>[<2>][1, swapper/0][    0.734268] msm_serial_hs module loaded
+<5>[<1>][129, hwrng][    0.735851] random: fast init done
+<5>[<1>][129, hwrng][    0.735951] random: crng init done
+<3>[<1>][1, swapper/0][    0.740672] diag: In __diag_glink_init, unable to register for glink channel DIAG_CTRL
+<3>[<1>][1, swapper/0][    0.740873] diag: In __diag_glink_init, unable to register for glink channel DIAG_DATA
+<3>[<1>][1, swapper/0][    0.741023] diag: In __diag_glink_init, unable to register for glink channel DIAG_CMD
+<3>[<1>][1, swapper/0][    0.741133] diag: In __diag_glink_init, unable to register for glink channel DIAG_DCI_DATA
+<3>[<1>][1, swapper/0][    0.741264] diag: In __diag_glink_init, unable to register for glink channel DIAG_DCI_CMD
+<6>[<1>][1, swapper/0][    0.744854] iommu: Adding device 1c40000.qcom,kgsl-iommu:gfx3d_user to group 3
+<3>[<1>][1, swapper/0][    0.746963] thermal thermal_zone39: binding zone quiet-therm-step with cdev thermal-devfreq-0 failed:-22
+<6>[<1>][1, swapper/0][    0.752452] brd: module loaded
+<6>[<0>][1, swapper/0][    0.754972] loop: module loaded
+<6>[<1>][1, swapper/0][    0.755296] zram: Added device: zram0
+<6>[<1>][1, swapper/0][    0.756168] QSEECOM: qseecom_probe: qseecom.qsee_version = 0x1001000
+<4>[<1>][1, swapper/0][    0.756246] QSEECOM: qseecom_retrieve_ce_data: Device does not support PFE
+<6>[<1>][1, swapper/0][    0.756302] QSEECOM: qseecom_probe: qseecom clocks handled by other subsystem
+<4>[<1>][1, swapper/0][    0.756334] QSEECOM: qseecom_probe: qsee reentrancy support phase is not defined, setting to default 0
+<4>[<1>][1, swapper/0][    0.756557] QSEECOM: qseecom_probe: qseecom.whitelist_support = 1
+<6>[<1>][1, swapper/0][    0.757024] fpc1020_init OK
+<3>[<0>][6, kworker/u8:0][    0.757705] i2c-msm-v2 7af5000.i2c: msm_bus_scale_register_client(mstr-id:84):0xb (ok)
+<6>[<1>][1, swapper/0][    0.758781] QCE50: __qce_get_device_tree_data: BAM Apps EE is not defined, setting to default 1
+<6>[<1>][1, swapper/0][    0.759124] qce 720000.qcedev: QTI Crypto 5.3.3 device found @0x720000
+<6>[<1>][1, swapper/0][    0.759184] qce 720000.qcedev: CE device = 0x0 IO base, CE = ffffff8009420000 Consumer (IN) PIPE 2,
+<6>[<1>][1, swapper/0][    0.759184] Producer (OUT) PIPE 3 IO base BAM = 0000000000000000
+<6>[<1>][1, swapper/0][    0.759184] BAM IRQ 96 Engines Availability = 0x2010853
+<6>[<1>][1, swapper/0][    0.759421] sps:BAM 0x0000000000704000 is registered.
+<6>[<1>][1, swapper/0][    0.759595] sps:BAM 0x0000000000704000 (va:0xffffff80096a0000) enabled: ver:0x27, number of pipes:8
+<6>[<1>][1, swapper/0][    0.759799] QCE50: qce_sps_init:  QTI MSM CE-BAM at 0x0000000000704000 irq 96
+<6>[<0>][1, swapper/0][    0.763664] QCE50: __qce_get_device_tree_data: BAM Apps EE is not defined, setting to default 1
+<6>[<0>][1, swapper/0][    0.763984] qcrypto 720000.qcrypto: QTI Crypto 5.3.3 device found @0x720000
+<6>[<0>][1, swapper/0][    0.764043] qcrypto 720000.qcrypto: CE device = 0x0 IO base, CE = ffffff80096e0000 Consumer (IN) PIPE 4,
+<6>[<0>][1, swapper/0][    0.764043] Producer (OUT) PIPE 5 IO base BAM = 0000000000000000
+<6>[<0>][1, swapper/0][    0.764043] BAM IRQ 96 Engines Availability = 0x2010853
+<6>[<0>][1, swapper/0][    0.764377] QCE50: qce_sps_init:  QTI MSM CE-BAM at 0x0000000000704000 irq 96
+<6>[<1>][1, swapper/0][    0.766797] qcrypto 720000.qcrypto: qcrypto-ecb-aes
+<6>[<0>][1, swapper/0][    0.766935] qcrypto 720000.qcrypto: qcrypto-cbc-aes
+<6>[<1>][1, swapper/0][    0.767037] qcrypto 720000.qcrypto: qcrypto-ctr-aes
+<6>[<0>][1, swapper/0][    0.767164] qcrypto 720000.qcrypto: qcrypto-ecb-des
+<6>[<1>][1, swapper/0][    0.767265] qcrypto 720000.qcrypto: qcrypto-cbc-des
+<6>[<0>][1, swapper/0][    0.767394] qcrypto 720000.qcrypto: qcrypto-ecb-3des
+<6>[<1>][1, swapper/0][    0.767521] qcrypto 720000.qcrypto: qcrypto-cbc-3des
+<6>[<0>][1, swapper/0][    0.767625] qcrypto 720000.qcrypto: qcrypto-xts-aes
+<6>[<1>][1, swapper/0][    0.767750] qcrypto 720000.qcrypto: qcrypto-sha1
+<6>[<0>][1, swapper/0][    0.767851] qcrypto 720000.qcrypto: qcrypto-sha256
+<6>[<1>][1, swapper/0][    0.767976] qcrypto 720000.qcrypto: qcrypto-aead-hmac-sha1-cbc-aes
+<6>[<0>][1, swapper/0][    0.768102] qcrypto 720000.qcrypto: qcrypto-aead-hmac-sha1-cbc-des
+<6>[<1>][1, swapper/0][    0.768202] qcrypto 720000.qcrypto: qcrypto-aead-hmac-sha1-cbc-3des
+<6>[<0>][1, swapper/0][    0.768328] qcrypto 720000.qcrypto: qcrypto-aead-hmac-sha256-cbc-aes
+<6>[<0>][1, swapper/0][    0.768460] qcrypto 720000.qcrypto: qcrypto-aead-hmac-sha256-cbc-des
+<6>[<1>][1, swapper/0][    0.768558] qcrypto 720000.qcrypto: qcrypto-aead-hmac-sha256-cbc-3des
+<6>[<0>][1, swapper/0][    0.768685] qcrypto 720000.qcrypto: qcrypto-hmac-sha1
+<6>[<1>][1, swapper/0][    0.768812] qcrypto 720000.qcrypto: qcrypto-hmac-sha256
+<6>[<0>][1, swapper/0][    0.768913] qcrypto 720000.qcrypto: qcrypto-aes-ccm
+<6>[<1>][1, swapper/0][    0.769039] qcrypto 720000.qcrypto: qcrypto-rfc4309-aes-ccm
+<3>[<1>][1, swapper/0][    0.769689] qcom_ice_get_device_tree_data: No vdd-hba-supply regulator, assuming not needed
+<6>[<1>][1, swapper/0][    0.769780] ICE IRQ = 88
+<6>[<1>][1, swapper/0][    0.770555] SCSI Media Changer driver v0.25 
+<6>[<1>][1, swapper/0][    0.771529] libphy: Fixed MDIO Bus: probed
+<6>[<1>][1, swapper/0][    0.771586] tun: Universal TUN/TAP device driver, 1.6
+<6>[<1>][1, swapper/0][    0.771616] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<6>[<1>][1, swapper/0][    0.771709] PPP generic driver version 2.4.2
+<6>[<1>][1, swapper/0][    0.771809] PPP BSD Compression module registered
+<6>[<1>][1, swapper/0][    0.771840] PPP Deflate Compression module registered
+<6>[<1>][1, swapper/0][    0.771907] PPP MPPE Compression module registered
+<6>[<1>][1, swapper/0][    0.771939] NET: Registered protocol family 24
+<6>[<1>][1, swapper/0][    0.772107] usbcore: registered new interface driver asix
+<6>[<1>][1, swapper/0][    0.772198] usbcore: registered new interface driver ax88179_178a
+<6>[<1>][1, swapper/0][    0.772246] usbcore: registered new interface driver cdc_ether
+<6>[<1>][1, swapper/0][    0.772317] usbcore: registered new interface driver net1080
+<6>[<1>][1, swapper/0][    0.772387] usbcore: registered new interface driver cdc_subset
+<6>[<1>][1, swapper/0][    0.772434] usbcore: registered new interface driver zaurus
+<6>[<1>][1, swapper/0][    0.772511] usbcore: registered new interface driver cdc_ncm
+<6>[<1>][41, kworker/1:1][    0.773102] msm_sharedmem: sharedmem_register_qmi: qmi init successful
+<3>[<0>][1, swapper/0][    0.773380] scm_call failed: func id 0x42000c16, ret: -1, syscall returns: 0x0, 0x0, 0x0
+<6>[<0>][1, swapper/0][    0.773438] hyp_assign_table: Failed to assign memory protection, ret = -5
+<3>[<0>][1, swapper/0][    0.773495] msm_sharedmem: setup_shared_ram_perms: hyp_assign_phys failed IPA=0x0160x00000000fe200000 size=1572864 err=-5
+<6>[<0>][1, swapper/0][    0.773612] msm_sharedmem: msm_sharedmem_probe: Device created for client 'rmtfs'
+<6>[<0>][1, swapper/0][    0.774287] msm_otg 78db000.usb: msm_otg probe
+<6>[<0>][1, swapper/0][    0.775471] msm_otg 78db000.usb: OTG regs = ffffff80087be000
+<4>[<0>][1, swapper/0][    0.777106] CHRDEV "usbmon" major number 233 goes below the dynamic allocation range
+<6>[<0>][1, swapper/0][    0.777212] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<6>[<0>][1, swapper/0][    0.777268] ehci-platform: EHCI generic platform driver
+<6>[<0>][1, swapper/0][    0.777794] ehci-msm: Qualcomm On-Chip EHCI Host Controller
+<3>[<0>][1, swapper/0][    0.778138] Unable to get vbus_otg
+<3>[<0>][1, swapper/0][    0.778171] msm_hsusb_host msm_hsusb_host: unable to register with transceiver
+<6>[<0>][1, swapper/0][    0.778328] usbcore: registered new interface driver cdc_acm
+<6>[<0>][1, swapper/0][    0.778384] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+<6>[<0>][1, swapper/0][    0.778464] usbcore: registered new interface driver usb-storage
+<6>[<0>][1, swapper/0][    0.778512] usbcore: registered new interface driver ums-alauda
+<6>[<0>][1, swapper/0][    0.778613] usbcore: registered new interface driver ums-cypress
+<3>[<1>][6, kworker/u8:0][    0.778691] i2c-msm-v2 7af5000.i2c: NACK: slave not responding, ensure its powered: msgs(n:1 cur:0 tx) bc(rx:0 tx:4) mode:FIFO slv_addr:0x28 MSTR_STS:0x0d1343c8 OPER:0x00000090
+<6>[<0>][1, swapper/0][    0.778695] usbcore: registered new interface driver ums-datafab
+<6>[<0>][1, swapper/0][    0.778710] usbcore: registered new interface driver ums-freecom
+<6>[<0>][1, swapper/0][    0.778723] usbcore: registered new interface driver ums-isd200
+<6>[<0>][1, swapper/0][    0.778737] usbcore: registered new interface driver ums-jumpshot
+<6>[<0>][1, swapper/0][    0.778752] usbcore: registered new interface driver ums-karma
+<6>[<0>][1, swapper/0][    0.778765] usbcore: registered new interface driver ums-onetouch
+<6>[<0>][1, swapper/0][    0.778779] usbcore: registered new interface driver ums-sddr09
+<6>[<0>][1, swapper/0][    0.778794] usbcore: registered new interface driver ums-sddr55
+<6>[<0>][1, swapper/0][    0.778807] usbcore: registered new interface driver ums-usbat
+<6>[<0>][1, swapper/0][    0.778855] usbcore: registered new interface driver usbserial
+<6>[<0>][1, swapper/0][    0.778872] usbcore: registered new interface driver usb_ehset_test
+<4>[<0>][1, swapper/0][    0.778900] CHRDEV "ttyGS" major number 232 goes below the dynamic allocation range
+<3>[<1>][6, kworker/u8:0][    0.779301] nq-nci 5-0028: nfcc_hw_check: - i2c_master_send Error
+<3>[<1>][6, kworker/u8:0][    0.779356] nq-nci 5-0028: nfcc_hw_check: - NFCC HW not available
+<3>[<1>][6, kworker/u8:0][    0.779492] nq-nci 5-0028: nqx_probe: probing nqxx failed, check hardware
+<4>[<2>][1, swapper/0][    0.780414] CHRDEV "rmnet_ctrl" major number 231 goes below the dynamic allocation range
+<6>[<2>][1, swapper/0][    0.781251] mousedev: PS/2 mouse device common for all mice
+<3>[<2>][1, swapper/0][    0.781531] i2c-msm-v2 78b7000.i2c: msm_bus_scale_register_client(mstr-id:86):0xf (ok)
+<6>[<2>][1, swapper/0][    0.781814] [FTS][Info]display x(0 720) y(0 1520)
+<6>[<2>][1, swapper/0][    0.781876] [FTS][Info]max touch number:5, irq gpio:65, reset gpio:64
+<6>[<1>][1, swapper/0][    0.782122] input: fts_ts as /devices/platform/soc/78b7000.i2c/i2c-3/3-0038/input/input1
+<6>[<1>][1, swapper/0][    1.030328] [FTS][Info]get ic information, chip id = 0x5422
+<6>[<1>][1, swapper/0][    1.030395] [FTS][Info]Create proc entry success!
+<6>[<1>][1, swapper/0][    1.030440] [FTS][Info][EX]: sysfs_create_group() succeeded!!
+<4>[<1>][1, swapper/0][    1.030496] [FTS][TEST]fts_test_init: Enter(1987)
+<3>[<1>][1, swapper/0][    1.030551] [FTS][TEST][Info]fts_test_func_init. line: 1910.  init test function
+<3>[<1>][1, swapper/0][    1.030584] [FTS][TEST][Info]fts_test_func_init. line: 1928.  match test function,type:82
+<4>[<1>][1, swapper/0][    1.030638] [FTS][TEST]fts_test_init: Exit(2008)
+<6>[<1>][1, swapper/0][    1.030696] [FTS][Info]irq in ts_data:277 irq in client:277
+<6>[<1>][1, swapper/0][    1.030727] [FTS][Info]irq flag:2008
+<6>[<0>][1, swapper/0][    1.030942] [FTS][Info]fw upgrade init function
+<7>[<0>][1, swapper/0][    1.030977] touchscreen touchpanel: device: 'touchpanel' register
+<7>[<0>][1, swapper/0][    1.031058] touchscreen touchpanel: sysfs_create_link_targets: may return an invalid value
+<7>[<0>][1, swapper/0][    1.031061] touchscreen touchpanel: proc_create_link_targets: may return an invalid value
+<7>[<0>][1, swapper/0][    1.031067] touchscreen touchpanel: 'vendor' property does not exist
+<7>[<0>][1, swapper/0][    1.031069] touchscreen touchpanel: 'product' property does not exist
+<7>[<0>][1, swapper/0][    1.031080] touchscreen touchpanel: set product information from compatible[0]
+<7>[<0>][1, swapper/0][    1.031085] touchscreen touchpanel: firmware name is 'focal-ft5446-djn.img'
+<4>[<0>][1, swapper/0][    1.031159] [HXTP] Himax common touch panel driver init
+<7>[<0>][42, kworker/0:1][    1.031248] touchscreen touchpanel: before upgrade firmware, the version is: 0x20
+<6>[<0>][42, kworker/0:1][    1.031250] [FTS][Info]firmware_upgrade function
+<6>[<0>][42, kworker/0:1][    1.031307] [FTS][Info]upgrade fw file len:45764
+<6>[<0>][42, kworker/0:1][    1.031338] [FTS][Info]********************FTS enter upgrade********************
+<6>[<0>][42, kworker/0:1][    1.031394] [FTS][Info]fw auto upgrade function
+<4>[<0>][1, swapper/0][    1.031506] [HXTP]  DT-himax_parse_dt:panel-coords = 0, 720, 0, 1520
+<4>[<0>][42, kworker/0:1][    1.031538] [HXTP]  DT-himax_parse_dt:display-coords = (720, 1520)
+<6>[<0>][42, kworker/0:1][    1.031612] [FTS][Info]TP Ready, Device ID = 0x54
+<6>[<0>][42, kworker/0:1][    1.031612] [FTS][Info]tp fw vaild
+<6>[<0>][42, kworker/0:1][    1.031614] [FTS][Info]fw version offset:0x14
+<6>[<0>][42, kworker/0:1][    1.031775] [FTS][Info]fw version in tp:20, host:20
+<6>[<0>][42, kworker/0:1][    1.031776] [FTS][Info]fw upgrade flag:0
+<6>[<0>][42, kworker/0:1][    1.031778] [FTS][Info]**********tp fw(app/param) no upgrade/upgrade success**********
+<6>[<0>][42, kworker/0:1][    1.031778] [FTS][Info]********************FTS exit upgrade********************
+<7>[<0>][42, kworker/0:1][    1.031938] touchscreen touchpanel: no need to upgrade firmware
+<4>[<0>][1, swapper/0][    1.032029] [HXTP]  DT:gpio_3v3_en value is not valid
+<4>[<0>][1, swapper/0][    1.032085] [HXTP]  DT:gpio_irq=65, gpio_rst=64, gpio_3v3_en=-2
+<4>[<0>][1, swapper/0][    1.032114] [HXTP]  DT:protocol_type=1
+<4>[<0>][1, swapper/0][    1.032168] [HXTP]  DT-No vk info in DT
+<4>[<0>][1, swapper/0][    1.032197] [HXTP][ERROR] himax_gpio_power_config: request reset pin failed
+<3>[<0>][1, swapper/0][    1.090109] i2c-msm-v2 78b7000.i2c: NACK: slave not responding, ensure its powered: msgs(n:2 cur:0 tx) bc(rx:3 tx:1) mode:FIFO slv_addr:0x48 MSTR_STS:0x011363c8 OPER:0x00000010
+<3>[<0>][1, swapper/0][    1.120126] i2c-msm-v2 78b7000.i2c: NACK: slave not responding, ensure its powered: msgs(n:2 cur:0 tx) bc(rx:3 tx:1) mode:FIFO slv_addr:0x48 MSTR_STS:0x011363c8 OPER:0x00000010
+<3>[<0>][1, swapper/0][    1.150099] i2c-msm-v2 78b7000.i2c: NACK: slave not responding, ensure its powered: msgs(n:2 cur:0 tx) bc(rx:3 tx:1) mode:FIFO slv_addr:0x48 MSTR_STS:0x011363c8 OPER:0x00000010
+<4>[<0>][1, swapper/0][    1.180041] [HXTP][ERROR] i2c_himax_read: i2c_read_block retry over 3
+<4>[<0>][1, swapper/0][    1.180073] [HXTP][ERROR] Himax chip doesn NOT EXIST
+<6>[<0>][1, swapper/0][    1.180159] Gt9xx driver installing..
+<3>[<0>][1, swapper/0][    1.180288] msm8937-pinctrl 1000000.pinctrl: pin GPIO_65 already requested by 3-0038; cannot claim for 3-005d
+<3>[<0>][1, swapper/0][    1.180346] msm8937-pinctrl 1000000.pinctrl: pin-65 (3-005d) status -22
+<3>[<0>][1, swapper/0][    1.180403] msm8937-pinctrl 1000000.pinctrl: could not request pin 65 (GPIO_65) from group gpio65  on device 1000000.pinctrl
+<3>[<0>][1, swapper/0][    1.180458] goodix-ts 3-005d: Error applying setting, reverse things back
+<4>[<0>][1, swapper/0][    1.180521] goodix-ts: probe of 3-005d failed with error -22
+<4>[<0>][1, swapper/0][    1.180673] abov_probe start()
+<6>[<0>][1, swapper/0][    1.180927] ABOVabov read_register for 0 time Addr: 0x03 Return: 0xab
+<6>[<0>][1, swapper/0][    1.180982] ABOVabov detect success!
+<6>[<0>][1, swapper/0][    1.181018] ABOVread dtsi 0x07:0x00 set reg
+<6>[<0>][1, swapper/0][    1.181072] ABOVread dtsi 0x08:0x07 set reg
+<6>[<0>][1, swapper/0][    1.181103] ABOVread dtsi 0xfb:0x01 set reg
+<6>[<0>][1, swapper/0][    1.181160] ABOV	 Initialized Main Memory: 0xffffffe338380600
+<6>[<0>][1, swapper/0][    1.181224] ABOV	 Initialized Device Specific Memory: 0xffffffe2c39b7680
+<6>[<0>][1, swapper/0][    1.181354] input: ABOV Cap Touch top as /devices/virtual/input/input2
+<6>[<0>][1, swapper/0][    1.181504] input: ABOV Cap Touch bottom as /devices/virtual/input/input3
+<6>[<0>][1, swapper/0][    1.181691] ABOVcap_vdd regulator is on
+<6>[<0>][1, swapper/0][    1.181773] ABOVcap_svdd regulator is on
+<6>[<1>][1, swapper/0][    1.181973] ABOVregistered with threaded irq (278)
+<6>[<0>][1, swapper/0][    1.182190] ABOVwrite_register Addr: 0x6 Val: 0x10 Return: 2
+<6>[<0>][1, swapper/0][    1.182244] ABOVSoftware Reset. Waiting device back to continue.
+<6>[<0>][1, swapper/0][    1.490045] ABOVDevice back from the reset, continuing. NIRQ = 0
+<6>[<0>][1, swapper/0][    1.490100] ABOVGoing to Setup I2C Registers
+<6>[<0>][1, swapper/0][    1.490161] ABOVGoing to Write Reg: 0x7 Value: 0x0
+<6>[<0>][1, swapper/0][    1.490348] ABOVwrite_register Addr: 0x7 Val: 0x0 Return: 2
+<6>[<0>][1, swapper/0][    1.490402] ABOVGoing to Write Reg: 0x8 Value: 0x7
+<6>[<0>][1, swapper/0][    1.490586] ABOVwrite_register Addr: 0x8 Val: 0x7 Return: 2
+<6>[<0>][1, swapper/0][    1.490641] ABOVGoing to Write Reg: 0xfb Value: 0x1
+<6>[<0>][1, swapper/0][    1.490849] ABOVwrite_register Addr: 0xfb Val: 0x1 Return: 2
+<6>[<0>][1, swapper/0][    1.600214] ABOVwrite_register Addr: 0xfb Val: 0x1 Return: 2
+<6>[<0>][1, swapper/0][    1.600469] ABOVread_register Addr: 0x4 Return: 0x0
+<6>[<0>][1, swapper/0][    1.600501] ABOVExiting initialize(). NIRQ = 0
+<6>[<0>][1, swapper/0][    1.600708] ABOVwrite_register Addr: 0x7 Val: 0x2 Return: 2
+<4>[<0>][1, swapper/0][    1.600769] abov_probe end()
+<6>[<0>][42, kworker/0:1][    1.600774] ABOVcapsense_update_work: start update firmware
+<6>[<0>][1, swapper/0][    1.601643] qcom,qpnp-rtc 200f000.qcom,spmi:qcom,pm8953@0:qcom,pm8953_rtc: rtc core: registered qpnp_rtc as rtc0
+<6>[<0>][1, swapper/0][    1.602021] i2c /dev entries driver
+<6>[<0>][1, swapper/0][    1.605214] iommu: Adding device 1d00000.qcom,vidc:non_secure_cb to group 4
+<6>[<1>][1, swapper/0][    1.605765] iommu: Adding device 1d00000.qcom,vidc:secure_bitstream_cb to group 5
+<3>[<0>][1, swapper/0][    1.606154] scm_call failed: func id 0x42000c16, ret: -1, syscall returns: 0x0, 0x0, 0x0
+<6>[<0>][1, swapper/0][    1.606212] hyp_assign_table: Failed to assign memory protection, ret = -5
+<6>[<0>][1, swapper/0][    1.606308] iommu: Adding device 1d00000.qcom,vidc:secure_pixel_cb to group 6
+<3>[<1>][1, swapper/0][    1.606666] scm_call failed: func id 0x42000c16, ret: -1, syscall returns: 0x0, 0x0, 0x0
+<6>[<1>][1, swapper/0][    1.606723] hyp_assign_table: Failed to assign memory protection, ret = -5
+<6>[<1>][1, swapper/0][    1.606850] iommu: Adding device 1d00000.qcom,vidc:secure_non_pixel_cb to group 7
+<3>[<0>][1, swapper/0][    1.607186] scm_call failed: func id 0x42000c16, ret: -1, syscall returns: 0x0, 0x0, 0x0
+<6>[<0>][1, swapper/0][    1.607217] hyp_assign_table: Failed to assign memory protection, ret = -5
+<6>[<0>][1, swapper/0][    1.611397] iommu: Adding device soc:qcom,cam_smmu:msm_cam_smmu_cb1 to group 8
+<3>[<0>][1, swapper/0][    1.611620] CAM-SMMU cam_smmu_populate_sids:2081 __debug cnt = 6, cb->name: :vfe sid [0] = 1024
+<3>[<0>][1, swapper/0][    1.611620] ,
+<3>[<0>][1, swapper/0][    1.611677] CAM-SMMU cam_smmu_populate_sids:2081 __debug cnt = 6, cb->name: :vfe sid [1] = 9216
+<3>[<0>][1, swapper/0][    1.611677] ,
+<6>[<0>][1, swapper/0][    1.611918] iommu: Adding device soc:qcom,cam_smmu:msm_cam_smmu_cb3 to group 9
+<3>[<0>][1, swapper/0][    1.612044] CAM-SMMU cam_smmu_populate_sids:2081 __debug cnt = 3, cb->name: :cpp sid [0] = 7168
+<3>[<0>][1, swapper/0][    1.612044] ,
+<6>[<0>][1, swapper/0][    1.612145] iommu: Adding device soc:qcom,cam_smmu:msm_cam_smmu_cb4 to group 10
+<3>[<0>][1, swapper/0][    1.612247] CAM-SMMU cam_smmu_populate_sids:2081 __debug cnt = 3, cb->name: :jpeg_enc0 sid [0] = 6144
+<3>[<0>][1, swapper/0][    1.612247] ,
+<3>[<0>][1, swapper/0][    1.613607] msm_camera_get_dt_vreg_data:1125 number of entries is 0 or not present in dts
+<3>[<0>][1, swapper/0][    1.615059] msm_camera_get_dt_vreg_data:1125 number of entries is 0 or not present in dts
+<3>[<0>][1, swapper/0][    1.615288] msm_camera_get_dt_vreg_data:1125 number of entries is 0 or not present in dts
+<3>[<0>][1, swapper/0][    1.615856] msm_camera_get_dt_vreg_data:1125 number of entries is 0 or not present in dts
+<3>[<0>][1, swapper/0][    1.616034] msm_camera_get_dt_vreg_data:1125 number of entries is 0 or not present in dts
+<3>[<0>][1, swapper/0][    1.616207] msm_camera_get_dt_vreg_data:1125 number of entries is 0 or not present in dts
+<3>[<0>][1, swapper/0][    1.616660] msm_actuator_platform_probe:1987 msm_actuator_platform_probe: No/Error Actuator GPIOs
+<3>[<0>][1, swapper/0][    1.617188] msm_eeprom_platform_probe failed 1864
+<3>[<0>][1, swapper/0][    1.617406] msm_eeprom_platform_probe failed 1864
+<6>[<0>][1, swapper/0][    1.622488] MSM-CPP cpp_init_hardware:1133 CPP HW Version: 0x40030002
+<3>[<0>][1, swapper/0][    1.622554] MSM-CPP cpp_init_hardware:1151 stream_cnt:0
+<6>[<0>][1, swapper/0][    1.622715] MSM-CPP cpp_release_hardware:1214 cpp hw release done
+<3>[<1>][1, swapper/0][    1.624302] CAM-SOC msm_camera_get_reg_base:870 err: mem resource vfe_fuse not found
+<3>[<1>][1, swapper/0][    1.624338] CAM-SOC msm_camera_get_res_size:913 err: mem resource vfe_fuse not found
+<3>[<1>][1, swapper/0][    1.624498] msm_vfe47_get_clks: cannot find camss_vfe_stream_clk
+<3>[<0>][1, swapper/0][    1.625196] CAM-SOC msm_camera_get_reg_base:870 err: mem resource vfe_fuse not found
+<3>[<0>][1, swapper/0][    1.625254] CAM-SOC msm_camera_get_res_size:913 err: mem resource vfe_fuse not found
+<3>[<0>][1, swapper/0][    1.625389] msm_vfe47_get_clks: cannot find camss_vfe_stream_clk
+<3>[<0>][1, swapper/0][    1.626680] __msm_jpeg_init:1551] Jpeg Device id 0
+<4>[<0>][1, swapper/0][    1.626877] CHRDEV "jpeg0" major number 230 goes below the dynamic allocation range
+<3>[<0>][1, swapper/0][    1.628894] WT rc=0 start_rtc_sec=210096
+<6>[<0>][1, swapper/0][    1.629602] pmi632_charger: smblib_request_dpdm: enabling DPDM regulator
+<6>[<0>][1, swapper/0][    1.629672] pmi632_charger: smblib_rerun_apsd: re-running APSD
+<6>[<1>][1, swapper/0][    1.630719] pmi632_charger: smblib_usb_plugin_locked: IRQ: usbin-plugin attached
+<6>[<1>][1, swapper/0][    1.630994] pmi632_charger: typec_attach_detach_irq_handler: IRQ: determine-initial-status
+<6>[<1>][1, swapper/0][    1.631061] pmi632_charger: typec_state_change_irq_handler: Ignoring for micro USB
+<6>[<1>][1, swapper/0][    1.631288] pmi632_charger: smblib_handle_hvdcp_detect_done: IRQ: hvdcp-detect-done falling
+<6>[<1>][1, swapper/0][    1.631344] pmi632_charger: smblib_handle_hvdcp_check_timeout: IRQ: smblib_handle_hvdcp_check_timeout falling
+<6>[<1>][1, swapper/0][    1.631399] pmi632_charger: smblib_handle_sdp_enumeration_done: IRQ: sdp-enumeration-done falling
+<6>[<1>][1, swapper/0][    1.631454] pmi632_charger: smblib_handle_slow_plugin_timeout: IRQ: slow-plugin-timeout falling
+<6>[<1>][41, kworker/1:1][    1.631661] pmi632_charger: smblib_run_aicl: re-running AICL
+<6>[<1>][1, swapper/0][    1.631982] pmi632_charger: chg_state_change_irq_handler: IRQ: determine-initial-status
+<3>[<1>][1, swapper/0][    1.632046] pmi632_charger: smblib_eval_chg_termination: Couldn't read SOC value, rc=-22
+<6>[<1>][1, swapper/0][    1.632386] pmi632_charger: wdog_bark_irq_handler: IRQ: determine-initial-status
+<6>[<1>][1, swapper/0][    1.632672] pmi632_charger: typec_or_rid_detection_change_irq_handler: Scheduling OTG work
+<6>[<0>][1, swapper/0][    1.637115] pmi632_charger: smblib_run_aicl: re-running AICL
+<6>[<0>][1, swapper/0][    1.637249] SMB5 status - usb:present=1 type=0 batt:present = 1 health = 1 charge = 3
+<6>[<0>][1, swapper/0][    1.637329] QPNP SMB5 probed successfully
+<4>[<0>][1, swapper/0][    1.639035] thermal thermal_zone1: failed to read out thermal zone (-517)
+<3>[<1>][1, swapper/0][    1.660232] bcl_soc:bcl_read_soc battery percentage read error:-61
+<4>[<1>][1, swapper/0][    1.660303] thermal thermal_zone37: failed to read out thermal zone (-61)
+<3>[<0>][1, swapper/0][    1.660778] bcl_soc:bcl_read_soc battery percentage read error:-61
+<4>[<0>][1, swapper/0][    1.660837] thermal thermal_zone37: failed to read out thermal zone (-61)
+<3>[<0>][256, kworker/0:2][    1.660886] bcl_soc:bcl_read_soc battery percentage read error:-61
+<6>[<1>][1, swapper/0][    1.683595] device-mapper: uevent: version 1.0.3
+<6>[<1>][1, swapper/0][    1.683799] device-mapper: ioctl: 4.35.0-ioctl (2016-06-23) initialised: dm-devel@redhat.com
+<6>[<0>][1, swapper/0][    1.684001] device-mapper: req-crypt: dm-req-crypt successfully initalized.
+<6>[<0>][1, swapper/0][    1.684001] 
+<4>[<0>][1, swapper/0][    1.684702] CHRDEV "bt" major number 229 goes below the dynamic allocation range
+<6>[<0>][1, swapper/0][    1.684809] sdhci: Secure Digital Host Controller Interface driver
+<6>[<0>][1, swapper/0][    1.684863] sdhci: Copyright(c) Pierre Ossman
+<6>[<0>][1, swapper/0][    1.684918] sdhci-pltfm: SDHCI platform and OF driver helper
+<3>[<2>][6, kworker/u8:0][    1.686603] sdhci_msm 7824900.sdhci: failed opening nvmem cell err : -2
+<6>[<2>][6, kworker/u8:0][    1.686674] qcom_ice_get_pdevice: found ice device ffffffe338007600
+<6>[<2>][6, kworker/u8:0][    1.686726] qcom_ice_get_pdevice: matching platform device ffffffe33a342800
+<3>[<2>][6, kworker/u8:0][    1.686974] sdhci_msm 7824900.sdhci: sdhci_msm_pm_qos_parse_cpu_groups: invalid mask 0xf0 of cpu group #1
+<5>[<2>][6, kworker/u8:0][    1.687030] sdhci_msm 7824900.sdhci: sdhci_msm_pm_qos_parse: PM QoS voting for cpu group will be disabled
+<6>[<0>][1, swapper/0][    1.687743] qpnp_vibrator_ldo_probe: Vibrator LDO successfully registered: uV = 3000000, overdrive = disabled
+<6>[<1>][6, kworker/u8:0][    1.688673] qcom_ice 7803000.sdcc1ice: QC ICE 2.1.44 device found @0xffffff8009508000
+<6>[<0>][1, swapper/0][    1.688908] usbcore: registered new interface driver usbhid
+<6>[<0>][1, swapper/0][    1.688975] usbhid: USB HID core driver
+<6>[<0>][1, swapper/0][    1.689141] ashmem: initialized
+<6>[<0>][1, swapper/0][    1.689502] qpnp_coincell_charger_show_state: enabled=Y, voltage=3200 mV, resistance=2100 ohm
+<6>[<1>][6, kworker/u8:0][    1.689558] mmc0: SDHCI controller on 7824900.sdhci [7824900.sdhci] using 64-bit ADMA in CMDQ mode
+<6>[<2>][63, kworker/2:1][    1.761886] mmc0: Out-of-interrupt timeout is 100[ms]
+<6>[<2>][63, kworker/2:1][    1.761949] mmc0: eMMC FW version: 0x03
+<6>[<2>][63, kworker/2:1][    1.761979] mmc0: CMDQ supported: depth: 16
+<3>[<0>][44, kworker/u9:0][    1.762029] bcl_soc:bcl_read_soc battery percentage read error:-61
+<4>[<0>][44, kworker/u9:0][    1.762035] thermal thermal_zone37: failed to read out thermal zone (-61)
+<6>[<2>][63, kworker/2:1][    1.762113] mmc0: cache barrier support 0 flush policy 0
+<6>[<2>][63, kworker/2:1][    1.767566] cmdq_host_alloc_tdl: desc_size: 768 data_sz: 63488 slot-sz: 24
+<6>[<2>][63, kworker/2:1][    1.767741] mmc0: CMDQ enabled on card
+<6>[<2>][63, kworker/2:1][    1.767807] mmc0: new HS400 Enhanced strobe MMC card at address 0001
+<6>[<2>][63, kworker/2:1][    1.768415] mmcblk0: mmc0:0001 QE63MB 14.6 GiB 
+<6>[<2>][63, kworker/2:1][    1.768614] mmcblk0rpmb: mmc0:0001 QE63MB partition 3 4.00 MiB
+<6>[<2>][63, kworker/2:1][    1.770246]  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 p34 p35 p36 p37 p38 p39 p40 p41 p42 p43 p44 p45 p46 p47 p48 p49 p50 p51 p52 p53 p54 p55 p56 p57 p58
+<3>[<1>][6, kworker/u8:0][    1.774669] sdhci_msm 7864900.sdhci: failed opening nvmem cell err : -2
+<4>[<1>][6, kworker/u8:0][    1.774741] sdhci_msm 7864900.sdhci: sdhci_msm_probe: ICE device is not enabled
+<3>[<1>][6, kworker/u8:0][    1.774963] sdhci_msm 7864900.sdhci: sdhci_msm_pm_qos_parse_cpu_groups: invalid mask 0xf0 of cpu group #1
+<5>[<1>][6, kworker/u8:0][    1.775020] sdhci_msm 7864900.sdhci: sdhci_msm_pm_qos_parse: PM QoS voting for cpu group will be disabled
+<6>[<1>][6, kworker/u8:0][    1.787654] mmc1: SDHCI controller on 7864900.sdhci [7864900.sdhci] using 64-bit ADMA in legacy mode
+<6>[<0>][250, kworker/u8:2][    1.817277] tz_log 8600720.tz-log: Hyp log service is not supported
+<6>[<1>][1, swapper/0][    1.817924] bimc-bwmon 408000.qcom,cpu-bwmon: BW HWmon governor registered.
+<4>[<1>][1, swapper/0][    1.820544] CHRDEV "sensors" major number 228 goes below the dynamic allocation range
+<4>[<1>][1, swapper/0][    1.820716] wt_bootloader_log_init start!
+<3>[<1>][1, swapper/0][    1.821585] wt_log_addr:0x92000000 wt_log_size:0x100000
+<3>[<1>][1, swapper/0][    1.857457] logbuf_head->bootloader_log_addr:0x92000080, logbuf_head->kernel_log_addr:0xfd58c000
+<3>[<1>][1, swapper/0][    1.857516] logbuf_head->bootloader_log_size:0x1de2, logbuf_head->kernel_log_size:0x80000
+<4>[<1>][1, swapper/0][    1.857565] [wt_boot_reason]: wt_boot_reason_init!
+<4>[<1>][1, swapper/0][    1.858930] [wt_boot_reason]: register_wt_panic_notifier is 0
+<6>[<1>][1, swapper/0][    1.859115] usbcore: registered new interface driver snd-usb-audio
+<6>[<1>][1, swapper/0][    1.859907] u32 classifier
+<6>[<1>][1, swapper/0][    1.859938]     Actions configured
+<6>[<1>][1, swapper/0][    1.859992] Netfilter messages via NETLINK v0.30.
+<3>[<0>][303, kworker/u9:1][    1.860079] bcl_soc:bcl_read_soc battery percentage read error:-61
+<4>[<0>][303, kworker/u9:1][    1.860144] thermal thermal_zone37: failed to read out thermal zone (-61)
+<6>[<1>][1, swapper/0][    1.860210] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+<6>[<1>][1, swapper/0][    1.860365] ctnetlink v0.93: registering with nfnetlink.
+<6>[<1>][1, swapper/0][    1.860663] xt_time: kernel timezone is -0000
+<6>[<1>][1, swapper/0][    1.860763] IPv4 over IPsec tunneling driver
+<6>[<1>][1, swapper/0][    1.861060] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[<1>][1, swapper/0][    1.861234] arp_tables: arp_tables: (C) 2002 David S. Miller
+<6>[<1>][1, swapper/0][    1.861281] Initializing XFRM netlink socket
+<6>[<1>][1, swapper/0][    1.861510] NET: Registered protocol family 10
+<6>[<0>][1, swapper/0][    1.862166] mip6: Mobile IPv6
+<6>[<0>][1, swapper/0][    1.862229] ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[<0>][1, swapper/0][    1.862615] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+<6>[<0>][1, swapper/0][    1.863072] NET: Registered protocol family 17
+<6>[<0>][1, swapper/0][    1.863131] NET: Registered protocol family 15
+<6>[<0>][1, swapper/0][    1.863174] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+<6>[<0>][1, swapper/0][    1.863249] Ebtables v2.0 registered
+<6>[<0>][1, swapper/0][    1.863336] l2tp_core: L2TP core driver, V2.0
+<6>[<0>][1, swapper/0][    1.863392] l2tp_ppp: PPPoL2TP kernel driver, V2.0
+<6>[<0>][1, swapper/0][    1.863421] l2tp_ip: L2TP IP encapsulation support (L2TPv3)
+<6>[<0>][1, swapper/0][    1.863479] l2tp_netlink: L2TP netlink interface
+<6>[<0>][1, swapper/0][    1.863525] l2tp_eth: L2TP ethernet pseudowire support (L2TPv3)
+<6>[<0>][1, swapper/0][    1.863575] l2tp_ip6: L2TP IP encapsulation support for IPv6 (L2TPv3)
+<6>[<0>][1, swapper/0][    1.863699] sctp: Hash tables configured (bind 256/256)
+<6>[<0>][1, swapper/0][    1.864517] NET: Registered protocol family 27
+<3>[<0>][314, kworker/0:3][    1.866963] minidump-id not found for adsp
+<6>[<0>][314, kworker/0:3][    1.867217] subsys-pil-tz c200000.qcom,lpass: for adsp segments only will be dumped.
+<3>[<0>][314, kworker/0:3][    1.868701] minidump-id not found for wcnss
+<6>[<0>][314, kworker/0:3][    1.868845] subsys-pil-tz a21b000.qcom,pronto: for wcnss segments only will be dumped.
+<3>[<0>][314, kworker/0:3][    1.869365] minidump-id not found for modem
+<6>[<0>][314, kworker/0:3][    1.869647] pil-q6v5-mss 4080000.qcom,mss: for modem segments only will be dumped.
+<6>[<0>][314, kworker/0:3][    1.869740] pil-q6v5-mss 4080000.qcom,mss: for md_modem segments only will be dumped.
+<6>[<0>][314, kworker/0:3][    1.870221] QG-K: qg_parse_dt: PMIC subtype 37 Digital major 2
+<6>[<0>][314, kworker/0:3][    1.870302] QG-K: qg_parse_dt: DT: S2 FIFO length=5 low_vbat_length=2 acc_length=128 acc_interval=100
+<6>[<0>][314, kworker/0:3][    1.870354] QG-K: qg_parse_dt: DT: OCV timer_expiry =-22min ocv_tol_threshold=-22uV
+<6>[<0>][314, kworker/0:3][    1.870452] QG-K: qg_parse_dt: DT: cl_min_start_soc=10 cl_max_start_soc=15 cl_min_temp=150 cl_max_temp=500
+<6>[<0>][314, kworker/0:3][    1.870505] QG-K: qg_parse_dt: DT: vbatt_empty_mv=3200mV vbatt_low_mv=3500mV delta_soc=1 ext-sns=0 qg_vbms_mode=0
+<6>[<0>][314, kworker/0:3][    1.870555] QG-K: qg_set_wa_flags: wa_flags = 2
+<6>[<0>][314, kworker/0:3][    1.870633] QG-K: qg_master_hold: Master hold = 1
+<6>[<0>][314, kworker/0:3][    1.870852] QG-K: qg_master_hold: Master hold = 0
+<6>[<1>][250, kworker/u8:2][    1.871369] msm_otg 78db000.usb: phy_reset: success
+<6>[<0>][314, kworker/0:3][    1.883222] QG-K: qg_vbat_thresholds_config: VBAT LOW threshold updated to 3500mV temp=346
+<6>[<0>][314, kworker/0:3][    1.884065] QG-K: get_batt_id_ohm: batt_id_mv=1253, batt_id_ohm=201613
+<6>[<0>][314, kworker/0:3][    1.884260] of_batterydata_get_best_profile: T89629_mtp_Jiade_4V4_4000mAh found
+<4>[<0>][314, kworker/0:3][    1.884314] CHRDEV "qg_battery" major number 227 goes below the dynamic allocation range
+<6>[<0>][314, kworker/0:3][    1.884611] QG-K: qg_batterydata_init: QG Battery-profile loaded, '/dev/qg_battery' created!
+<6>[<0>][314, kworker/0:3][    1.884665] QG-K: qg_load_battery_profile: profile=T89629_mtp_Jiade_4V4_4000mAh FV=4400000uV FCC=2000ma
+<6>[<0>][314, kworker/0:3][    1.884716] QG-K: qg_setup_battery: battery_missing=0 batt_id_ohm=201613 Ohm profile_loaded=1 profile=T89629_mtp_Jiade_4V4_4000mAh
+<4>[<0>][314, kworker/0:3][    1.884789] CHRDEV "qg" major number 226 goes below the dynamic allocation range
+<6>[<0>][314, kworker/0:3][    1.884972] QG-K: qg_determine_pon_soc: S7_PON_OCV OCV=3864906
+<6>[<0>][314, kworker/0:3][    1.885032] QG-K: qg_determine_pon_soc: S3_GOOD_OCV OCV=6377865
+<6>[<0>][314, kworker/0:3][    1.885092] QG-K: qg_determine_pon_soc: S3_LAST_OCV OCV=6377865
+<6>[<0>][314, kworker/0:3][    1.885152] QG-K: qg_determine_pon_soc: SDAM_PON_OCV OCV=3870551
+<6>[<0>][314, kworker/0:3][    1.886070] QG-K: qg_determine_pon_soc: Shutdown: Valid=1 SOC=41 OCV=3830700uV time=210075secs temp=345, time_now=210096secs temp_now=346 S7_soc=52
+<6>[<0>][314, kworker/0:3][    1.886145] QG-K: qg_determine_pon_soc: Using SHUTDOWN_SOC @ PON
+<6>[<0>][314, kworker/0:3][    1.886173] QG-K: qg_determine_pon_soc: WT Using SHUTDOWN_SOC @ PON
+<6>[<0>][314, kworker/0:3][    1.887059] QG-K: qg_determine_pon_soc: using SHUTDOWN_SOC @ PON ocv_uv=3830700uV soc=41
+<6>[<0>][317, kworker/0:4][    1.887714] of_batterydata_get_best_profile: T89629_mtp_Jiade_4V4_4000mAh found
+<6>[<0>][314, kworker/0:3][    1.887865] QG-K: qg_request_interrupt: IRQ qg-vbat-low registered wakeable=1
+<6>[<0>][314, kworker/0:3][    1.888074] QG-K: qg_request_interrupt: IRQ qg-vbat-empty registered wakeable=1
+<6>[<0>][314, kworker/0:3][    1.888242] QG-K: qg_request_interrupt: IRQ qg-fifo-done registered wakeable=1
+<6>[<0>][314, kworker/0:3][    1.888423] QG-K: qg_request_interrupt: IRQ qg-good-ocv registered wakeable=1
+<6>[<0>][314, kworker/0:3][    1.888532] QG-K: qpnp_qg_probe: QG initialized! battery_profile=T89629_mtp_Jiade_4V4_4000mAh SOC=41
+<5>[<1>][1, swapper/0][    1.889229] Registered cp15_barrier emulation handler
+<5>[<1>][1, swapper/0][    1.889285] Registered setend emulation handler
+<6>[<1>][1, swapper/0][    1.889333] core_ctl: Creating CPU group 0
+<6>[<1>][1, swapper/0][    1.889384] core_ctl: Init CPU0 state
+<6>[<1>][1, swapper/0][    1.889412] core_ctl: Init CPU1 state
+<6>[<1>][1, swapper/0][    1.889462] core_ctl: Init CPU2 state
+<6>[<1>][1, swapper/0][    1.889489] core_ctl: Init CPU3 state
+<6>[<0>][1, swapper/0][    1.889789] registered taskstats version 1
+<5>[<0>][1, swapper/0][    1.889827] Loading compiled-in X.509 certificates
+<6>[<0>][4, kworker/0:0][    1.890618] QG-K: qg_status_change_work: charge_status=1 charge_done=0
+<6>[<0>][4, kworker/0:0][    1.890661] QG-K: qg_usb_status_update: USB status changed Present=1
+<6>[<0>][4, kworker/0:0][    1.890713] QG-K: qg_scale_soc: SOC scale: Start msoc=41 catch_up_soc=41 delta_soc=1
+<6>[<0>][4, kworker/0:0][    1.890778] QG-K: scale_soc_stop: SOC scale stopped: msoc=41 catch_up_soc=41
+<3>[<0>][314, kworker/0:3][    1.892341] power_supply bms: driver failed to report `cc_soc' property: -22
+<5>[<2>][1, swapper/0][    1.892459] Loaded X.509 cert 'Build time autogenerated kernel key: 3a9b68416d742fc6e7896a359bc940f8666b917c'
+<6>[<2>][1, swapper/0][    1.893640] qcom,cc-debug-8952 1874000.qcom,cc-debug: Registered Debug Mux successfully
+<6>[<1>][1, swapper/0][    1.897250] iommu: Adding device soc:qcom,msm_fastrpc:qcom,msm_fastrpc_compute_cb to group 11
+<4>[<0>][1, swapper/0][    1.898225] CHRDEV "adsprpc-smd" major number 225 goes below the dynamic allocation range
+<6>[<0>][1, swapper/0][    1.899682] input: soc:gpio_keys as /devices/platform/soc/soc:gpio_keys/input/input4
+<6>[<0>][1, swapper/0][    1.899940] qcom,qpnp-rtc 200f000.qcom,spmi:qcom,pm8953@0:qcom,pm8953_rtc: setting system clock to 1970-01-03 10:21:36 UTC (210096)
+<6>[<0>][1, swapper/0][    1.901532] lpm_levels_of: idx 1 900
+<3>[<0>][1, swapper/0][    1.901796] lpm_levels: register_cluster_lpm_stats()
+<6>[<1>][1, swapper/0][    1.905966] RNDIS_IPA module is loaded.
+<6>[<1>][1, swapper/0][    1.906034] clock_late_init: Removing enables held for handed-off clocks
+<6>[<0>][4, kworker/0:0][    1.907345] QG-K: qg_charge_full_update: msoc=41 health=1 charge_full=0 charge_done=0
+<6>[<0>][1, swapper/0][    1.911717] apc_mem_acc_corner: disabling
+<6>[<0>][1, swapper/0][    1.911781] dbu1: disabling
+<6>[<0>][1, swapper/0][    1.911840] ALSA device list:
+<6>[<0>][1, swapper/0][    1.911890]   No soundcards found.
+<3>[<0>][1, swapper/0][    1.911963] Warning: unable to open an initial console.
+<6>[<0>][1, swapper/0][    1.913046] Freeing unused kernel memory: 4096K
+<14>[<1>][1, init][    1.916607] init: init first stage started!
+<14>[<1>][1, init][    1.916700] init: First stage mount skipped (recovery mode)
+<14>[<1>][1, init][    1.917034] init: Using Android DT directory /proc/device-tree/firmware/android/
+<3>[<1>][1, init][    1.964989] power_supply bms: driver failed to report `cc_soc' property: -22
+<3>[<0>][250, kworker/u8:2][    1.981497] ipa_get_transport_type:2707 IPA HW is not supported
+<6>[<0>][250, kworker/u8:2][    1.983614] msm_otg 78db000.usb: USB in low power mode
+<14>[<0>][1, init][    2.001943] init: [libfs_mgr]Returning avb_handle with status: 0
+<14>[<0>][1, init][    2.002387] init: Loading SELinux policy
+<7>[<0>][1, init][    2.006770] SELinux: 16384 avtab hash slots, 37163 rules.
+<7>[<0>][1, init][    2.022358] SELinux: 16384 avtab hash slots, 37163 rules.
+<7>[<0>][1, init][    2.022376] SELinux:  1 users, 2 roles, 2296 types, 0 bools, 1 sens, 1024 cats
+<7>[<0>][1, init][    2.022380] SELinux:  93 classes, 37163 rules
+<7>[<0>][1, init][    2.026674] SELinux:  Completing initialization.
+<7>[<0>][1, init][    2.026677] SELinux:  Setting up existing superblocks.
+<6>[<0>][256, kworker/0:2][    2.055047] mmc1: new ultra high speed SDR104 SDHC card at address aaaa
+<6>[<0>][256, kworker/0:2][    2.055627] mmcblk1: mmc1:aaaa SL16G 14.8 GiB 
+<6>[<0>][256, kworker/0:2][    2.058321]  mmcblk1: p1
+<5>[<0>][1, init][    2.113996] audit: type=1403 audit(210096.709:2): policy loaded auid=4294967295 ses=4294967295
+<14>[<0>][1, init][    2.114327] selinux: SELinux: Loaded policy from /sepolicy
+<14>[<0>][1, init][    2.114327] 
+<5>[<0>][1, init][    2.114541] audit: type=1404 audit(210096.709:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+<14>[<1>][1, init][    2.134315] selinux: SELinux: Loaded file_contexts
+<14>[<1>][1, init][    2.134315] 
+<14>[<0>][1, init][    2.137304] init: init second stage started!
+<14>[<0>][1, init][    2.161631] init: Using Android DT directory /proc/device-tree/firmware/android/
+<14>[<0>][1, init][    2.166800] selinux: SELinux: Loaded file_contexts
+<14>[<0>][1, init][    2.166800] 
+<14>[<0>][1, init][    2.166868] init: Running restorecon...
+<11>[<0>][1, init][    2.183311] init: waitid failed: No child processes
+<12>[<0>][1, init][    2.183424] init: Couldn't load property file '/system/etc/prop.default': open() failed: No such file or directory: No such file or directory
+<11>[<0>][1, init][    2.184584] init: Unable to set property 'ro.adb.secure' to '1' in property file '/prop.default': Read-only property was already set
+<11>[<0>][1, init][    2.187093] init: Unable to set property 'ro.cutoff_voltage_mv' to '3400' in property file '/prop.default': Read-only property was already set
+<11>[<0>][1, init][    2.187237] init: Unable to set property 'ro.boot.skuid' to '61KWW' in property file '/prop.default': Read-only property was already set
+<11>[<0>][1, init][    2.187633] init: Unable to set property 'ro.product.first_api_level' to '28' in property file '/prop.default': Read-only property was already set
+<5>[<0>][1, init][    2.192877] audit: type=1400 audit(210096.789:4): avc:  denied  { create } for  pid=1 comm="init" name="cgroup.procs" scontext=u:r:init:s0 tcontext=u:object_r:rootfs:s0 tclass=file permissive=0
+<14>[<2>][347, ueventd][    2.195852] ueventd: ueventd started!
+<14>[<2>][347, ueventd][    2.200192] selinux: SELinux: Loaded file_contexts
+<14>[<2>][347, ueventd][    2.200192] 
+<14>[<2>][347, ueventd][    2.200470] ueventd: Parsing file /ueventd.rc...
+<14>[<2>][347, ueventd][    2.201068] ueventd: Parsing file /vendor/ueventd.rc...
+<11>[<2>][347, ueventd][    2.201145] ueventd: Unable to read config file '/vendor/ueventd.rc': open() failed: No such file or directory
+<14>[<2>][347, ueventd][    2.201208] ueventd: Parsing file /odm/ueventd.rc...
+<11>[<2>][347, ueventd][    2.201253] ueventd: Unable to read config file '/odm/ueventd.rc': open() failed: No such file or directory
+<14>[<2>][347, ueventd][    2.201317] ueventd: Parsing file /ueventd.qcom.rc...
+<11>[<2>][347, ueventd][    2.201383] ueventd: Unable to read config file '/ueventd.qcom.rc': open() failed: No such file or directory
+<6>[<1>][290, irq/323-aicl-do][    2.221066] pmi632_charger: default_irq_handler: IRQ: aicl-done
+<6>[<1>][290, irq/323-aicl-do][    2.221195] pmi632_charger: default_irq_handler: IRQ: aicl-done
+<3>[<1>][347, ueventd][    2.244707] power_supply bms: driver failed to report `cc_soc' property: -22
+<14>[<0>][348, ueventd][    2.258254] ueventd: firmware: loading 'AbovCapSense.BIN' for '/devices/platform/soc/7af5000.i2c/i2c-5/5-0020/firmware/AbovCapSense.BIN'
+<6>[<1>][61, kworker/1:2][    2.640130] pmi632_charger: smblib_icl_change_work: icl_settled=100000
+<3>[<1>][282, irq/310-usbin-s][    2.972057] pmi632_charger: smblib_update_usb_type: New real_charger_type set to 5
+<6>[<3>][290, irq/323-aicl-do][    2.972068] pmi632_charger: default_irq_handler: IRQ: aicl-done
+<6>[<1>][282, irq/310-usbin-s][    2.972170] pmi632_charger: smblib_update_usb_type: APSD=DCP PD=0
+<6>[<1>][282, irq/310-usbin-s][    2.972377] pmi632_charger: smblib_run_aicl: re-running AICL
+<6>[<1>][282, irq/310-usbin-s][    2.972432] pmi632_charger: smblib_handle_apsd_done: IRQ: apsd-done rising; DCP detected
+<6>[<1>][282, irq/310-usbin-s][    2.972482] pmi632_charger: smblib_handle_hvdcp_detect_done: IRQ: hvdcp-detect-done falling
+<6>[<1>][282, irq/310-usbin-s][    2.972532] pmi632_charger: smblib_handle_hvdcp_check_timeout: IRQ: smblib_handle_hvdcp_check_timeout falling
+<6>[<1>][282, irq/310-usbin-s][    2.972583] pmi632_charger: smblib_handle_sdp_enumeration_done: IRQ: sdp-enumeration-done falling
+<6>[<1>][282, irq/310-usbin-s][    2.972634] pmi632_charger: smblib_handle_slow_plugin_timeout: IRQ: slow-plugin-timeout falling
+<6>[<1>][41, kworker/1:1][    2.973263] QG-K: qg_status_change_work: charge_status=1 charge_done=0
+<6>[<1>][41, kworker/1:1][    3.002650] QG-K: qg_charge_full_update: msoc=41 health=1 charge_full=0 charge_done=0
+<6>[<3>][290, irq/323-aicl-do][    3.226415] pmi632_charger: default_irq_handler: IRQ: aicl-done
+<5>[<2>][1, init][    3.675430] audit: type=1400 audit(210098.269:5): avc:  denied  { setattr } for  pid=1 comm="init" name="system" dev="rootfs" ino=5455 scontext=u:r:init:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file permissive=0
+<6>[<0>][256, kworker/0:2][    3.680117] of_batterydata_get_best_profile: T89629_mtp_Jiade_4V4_4000mAh found
+<3>[<0>][256, kworker/0:2][    3.680183] QCOM-STEPCHG: read_range_data_from_node: Count qcom,step-chg-ranges failed, rc=-22
+<3>[<0>][256, kworker/0:2][    3.680232] QCOM-STEPCHG: read_range_data_from_node: Count qcom,jeita-fcc-ranges failed, rc=-22
+<3>[<0>][256, kworker/0:2][    3.680279] QCOM-STEPCHG: read_range_data_from_node: Count qcom,jeita-fv-ranges failed, rc=-22
+<6>[<2>][1, init][    3.682441] file system registered
+<5>[<2>][353, charger][    3.699412] audit: type=1400 audit(210098.289:6): avc:  denied  { read } for  pid=353 comm="charger" name="type" dev="sysfs" ino=33111 scontext=u:r:charger:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=file permissive=0
+<5>[<2>][353, charger][    3.699575] audit: type=1400 audit(210098.289:7): avc:  denied  { read } for  pid=353 comm="charger" name="type" dev="sysfs" ino=37974 scontext=u:r:charger:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=file permissive=0
+<5>[<2>][353, charger][    3.699703] audit: type=1400 audit(210098.289:8): avc:  denied  { read } for  pid=353 comm="charger" name="type" dev="sysfs" ino=33081 scontext=u:r:charger:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=file permissive=0
+<5>[<2>][353, charger][    3.699830] audit: type=1400 audit(210098.289:9): avc:  denied  { read } for  pid=353 comm="charger" name="type" dev="sysfs" ino=33035 scontext=u:r:charger:s0 tcontext=u:object_r:sysfs_usb_supply:s0 tclass=file permissive=0
+<5>[<2>][353, charger][    3.699946] audit: type=1400 audit(210098.289:10): avc:  denied  { read } for  pid=353 comm="charger" name="type" dev="sysfs" ino=33149 scontext=u:r:charger:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=file permissive=0
+<12>[<2>][353, charger][    3.700199] healthd: No battery devices found
+<11>[<2>][353, charger][    3.700377] android.hardware.health@2.0-impl: wakealarm_init: timerfd_create failed
+<12>[<2>][353, charger][    3.700728] healthd: battery none chg=
+<6>[<1>][354, recovery][    3.707767] EXT4-fs (mmcblk0p57): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered
+<6>[<0>][42, kworker/0:1][    3.761467] ABOVRequest firmware failed - AbovCapSense (-11)
+<6>[<0>][42, kworker/0:1][    3.761531] ABOVcapsense_update_work: update firmware end
+<6>[<2>][354, recovery][    3.868805] touchscreen touchpanel: screen off early
+<3>[<2>][354, recovery][    3.868808] mdss_fb_blank: mdss_fb_blank:blank_mode: 4
+<6>[<3>][354, recovery][    3.869589] mdss_dsi_on: time=0ms--
+<6>[<3>][252, kworker/3:1][    4.240091] pmi632_charger: smblib_icl_change_work: icl_settled=1200000
+<12>[<3>][353, charger][    4.241706] healthd: battery none chg=
+<6>[<0>][354, recovery][    4.280171] mdss_dsi_panel_off: time=400ms--
+<6>[<1>][354, recovery][    4.327778] mdss_dsi_off: time=10ms--
+<6>[<0>][354, recovery][    4.328733] touchscreen touchpanel: screen off
+<6>[<0>][354, recovery][    4.328951] fb_blank: time=460ms--
+<6>[<0>][354, recovery][    4.329316] touchscreen touchpanel: screen on early
+<3>[<0>][354, recovery][    4.329318] mdss_fb_blank: mdss_fb_blank:blank_mode: 0
+<3>[<1>][354, recovery][    4.329846] mdss_dsi_panel_reset before
+<6>[<0>][354, recovery][    4.450146] mdss_dsi_on: time=130ms--
+<6>[<0>][354, recovery][    4.591966] mdss_dsi_panel_on: time=140ms--
+<6>[<0>][354, recovery][    4.592763] touchscreen touchpanel: screen on
+<6>[<0>][354, recovery][    4.592778] fb_blank: time=270ms--
+<6>[<0>][6, kworker/u8:0][    4.841000] [FTS][Info]TP Ready, Device ID = 0x54
+<3>[<0>][0, swapper/0][    6.398427] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][    7.133210] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][    7.769791] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][    7.906996] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][    8.026775] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][    8.154701] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][    8.543978] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][    8.664581] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][    8.773043] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][    8.873407] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][    8.989792] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][    9.078632] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][    9.213936] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][    9.327924] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][    9.629862] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][    9.754043] PMIC input: code=116, sts=0x0
+<6>[<0>][354, recovery][    9.821324] EXT4-fs (mmcblk0p55): mounted filesystem without journal. Opts: barrier=1
+<6>[<1>][354, recovery][    9.841917] EXT4-fs (mmcblk0p57): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered
+<3>[<0>][0, swapper/0][   10.355911] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   10.463185] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   10.568190] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   10.672954] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   10.762602] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   10.868686] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   10.947867] PMIC input: code=114, sts=0x2
+<3>[<0>][42, kworker/0:1][   11.058535] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   11.141155] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   11.234322] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   11.338600] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   11.448879] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   11.949706] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   12.032394] PMIC input: code=114, sts=0x0
+<3>[<0>][42, kworker/0:1][   12.033919] ***temp=343,v_batt=3951131,c_batt=-935822,cap=41,status=1,charge_type=3,batt_p=1,usb_p=1,board_temp=350,usbin_v=4219712,usbin_i=1202042
+<3>[<0>][42, kworker/0:1][   12.035626] bat_current = 2000000,lcd_is_on = 0,board_temp = 350,bat_temp = 343,last_bat_current=1
+<3>[<0>][42, kworker/0:1][   12.035716] WT rtc_sec=210106,start_rtc_sec=210096
+<3>[<0>][0, swapper/0][   12.301284] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   12.392474] PMIC input: code=116, sts=0x0
+<6>[<1>][354, recovery][   12.400817] EXT4-fs (mmcblk0p57): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered
+<3>[<0>][0, swapper/0][   13.011135] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   13.159428] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   24.326001] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   24.495419] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   26.327559] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   26.520070] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   27.212074] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   27.377755] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   29.271596] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   29.468918] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   30.285459] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   30.409827] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   30.541683] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   30.642001] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   30.757742] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   30.859004] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   31.061767] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   31.206428] PMIC input: code=116, sts=0x0
+<4>[<1>][354, recovery][   31.489621] FAT-fs (mmcblk1p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+<6>[<2>][354, recovery][   31.493749] EXT4-fs (mmcblk0p57): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered
+<3>[<0>][0, swapper/0][   32.016952] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   32.163385] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   32.801015] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   32.972768] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   33.129763] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   33.586626] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   34.892110] PMIC input: code=116, sts=0x1
+<3>[<0>][358, recovery][   35.303175] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   35.834744] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   35.965786] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   36.108076] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   36.219642] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   36.355982] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   36.464752] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   36.659464] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   36.801276] PMIC input: code=116, sts=0x0
+<4>[<1>][354, recovery][   36.849961] FAT-fs (mmcblk1p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+<6>[<0>][354, recovery][   36.855228] EXT4-fs (mmcblk0p57): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered
+<3>[<0>][0, swapper/0][   37.225626] PMIC input: code=114, sts=0x2
+<3>[<0>][42, kworker/0:1][   37.233546] ***temp=342,v_batt=3953661,c_batt=-938263,cap=41,status=1,charge_type=3,batt_p=1,usb_p=1,board_temp=346,usbin_v=4219712,usbin_i=1202042
+<3>[<0>][0, swapper/0][   37.356884] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   37.565735] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   37.704042] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   38.048958] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   38.201827] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   38.821385] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   38.969366] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   40.407551] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   40.582112] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   41.344843] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   41.482193] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   42.443924] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   42.595432] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   42.849314] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   43.052398] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   43.661108] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   43.843799] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   44.870472] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   45.034216] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   45.531710] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   45.691048] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   46.237194] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   46.421688] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   47.663463] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   47.799885] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   48.131432] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   48.298336] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   49.622577] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   49.767435] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   50.468327] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   50.632015] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   50.706034] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   50.819208] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   50.913672] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   51.010636] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   51.104545] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   51.210654] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   51.418860] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   51.570865] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   52.150557] PMIC input: code=116, sts=0x1
+<6>[<3>][290, irq/323-aicl-do][   52.199431] pmi632_charger: default_irq_handler: IRQ: aicl-done
+<6>[<3>][290, irq/323-aicl-do][   52.222794] pmi632_charger: default_irq_handler: IRQ: aicl-done
+<6>[<3>][290, irq/323-aicl-do][   52.222842] pmi632_charger: default_irq_handler: IRQ: aicl-done
+<3>[<0>][0, swapper/0][   52.327707] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   52.643687] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   52.739526] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   53.179275] PMIC input: code=114, sts=0x2
+<6>[<3>][252, kworker/3:1][   53.280089] pmi632_charger: smblib_icl_change_work: icl_settled=1200000
+<4>[<3>][353, charger][   53.280593] audit_printk_skb: 21 callbacks suppressed
+<5>[<3>][353, charger][   53.280596] audit: type=1400 audit(210147.879:18): avc:  denied  { read } for  pid=353 comm="charger" name="charger_low_efficiency" dev="sysfs" ino=33153 scontext=u:r:charger:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=file permissive=0
+<5>[<3>][353, charger][   53.280804] audit: type=1400 audit(210147.879:19): avc:  denied  { read } for  pid=353 comm="charger" name="real_type" dev="sysfs" ino=33048 scontext=u:r:charger:s0 tcontext=u:object_r:sysfs_usb_supply:s0 tclass=file permissive=0
+<12>[<3>][353, charger][   53.280894] healthd: battery none chg=
+<3>[<0>][0, swapper/0][   53.303962] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   53.395815] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   53.508298] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   53.608235] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   53.736030] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   54.005733] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   54.082437] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   54.607979] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   54.752353] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   55.037936] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   55.179245] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   55.278532] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   55.414222] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   55.804933] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   55.950038] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   56.308184] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   56.502280] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   57.102304] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   57.249236] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   57.480240] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   57.681065] PMIC input: code=116, sts=0x0
+<3>[<0>][42, kworker/0:1][   62.445395] ***temp=340,v_batt=3956970,c_batt=-953522,cap=41,status=1,charge_type=3,batt_p=1,usb_p=1,board_temp=345,usbin_v=4221792,usbin_i=1202205
+<3>[<0>][0, swapper/0][   62.874056] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   63.001670] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   63.119285] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   63.233478] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   63.298425] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   63.417219] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   63.628285] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   63.768094] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   63.964623] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   64.322085] PMIC input: code=116, sts=0x0
+<6>[<2>][323, irq/432-qg-fifo][   65.355039] QG-K: qg_fifo_update_done_handler: IRQ triggered
+<3>[<0>][0, swapper/0][   65.896439] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   66.307601] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   66.809173] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   66.932171] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   67.010387] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   67.117689] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   67.223184] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   67.354623] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   67.478244] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   67.665467] PMIC input: code=116, sts=0x0
+<4>[<3>][354, recovery][   67.743439] FAT-fs (mmcblk1p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+<6>[<1>][354, recovery][   67.748697] EXT4-fs (mmcblk0p57): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered
+<3>[<0>][0, swapper/0][   68.072463] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   68.236217] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   68.338046] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   68.450847] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   68.544698] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   68.642209] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   68.734858] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   68.850610] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   68.956952] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   69.052250] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   69.149238] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   69.263777] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   69.358971] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   69.479246] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   69.589413] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   69.684075] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   70.853953] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   71.031900] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   72.913129] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   73.044357] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   73.186474] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   73.358828] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   74.380937] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   74.526149] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   74.795616] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   74.942003] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   75.307484] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   75.402407] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   75.503002] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   75.613053] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   75.700638] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   75.790981] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   76.029875] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   76.217799] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   76.790313] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   76.964879] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   77.320643] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   77.489510] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   77.778587] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   77.973176] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   78.716048] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   78.868412] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   79.214402] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   79.397473] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   80.176658] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   80.382042] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   80.621446] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   80.880674] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   81.361957] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   81.549016] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   81.961659] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   82.145381] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   82.398110] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   82.563252] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   82.765643] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   82.893842] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   83.521923] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   83.693541] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   86.442063] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   86.591304] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   87.239461] PMIC input: code=114, sts=0x2
+<3>[<0>][42, kworker/0:1][   87.633625] ***temp=339,v_batt=3957164,c_batt=-935517,cap=41,status=1,charge_type=3,batt_p=1,usb_p=1,board_temp=344,usbin_v=4221792,usbin_i=1201880
+<3>[<0>][354, recovery][   87.885088] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   88.087126] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   88.625712] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   89.161349] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   89.501518] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   89.879431] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   90.009275] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   90.302940] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   90.434981] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   90.545768] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   90.658791] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   90.826020] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   91.019164] PMIC input: code=116, sts=0x0
+<4>[<2>][354, recovery][   91.101792] FAT-fs (mmcblk1p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+<6>[<0>][354, recovery][   91.107088] EXT4-fs (mmcblk0p57): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered
+<3>[<0>][0, swapper/0][   91.427609] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   91.567975] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   91.679476] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   91.792554] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   91.881460] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   91.958641] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   92.069582] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   92.179223] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   92.263306] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   92.527264] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   92.633420] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   92.725675] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   92.826249] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   92.919129] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   93.014317] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   93.119262] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   93.221411] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   93.323123] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   93.420868] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   93.518448] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   93.599739] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   93.898698] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   93.994147] PMIC input: code=114, sts=0x2
+<3>[<0>][42, kworker/0:1][   94.100229] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   94.204819] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   94.301364] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   94.394529] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   94.481269] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   94.685184] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   94.841737] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   95.529630] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   95.654288] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   96.054787] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   96.151468] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   96.279927] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   96.404653] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   96.984659] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   97.132142] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   97.486609] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][   97.655391] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][   99.693153] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][   99.828298] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][   99.989473] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][  100.166649] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][  100.919531] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][  101.087949] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][  102.254394] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][  102.390121] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][  102.614100] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  102.744628] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  102.905182] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][  103.036267] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][  104.023137] PMIC input: code=116, sts=0x1
+<6>[<3>][290, irq/323-aicl-do][  104.150259] pmi632_charger: default_irq_handler: IRQ: aicl-done
+<6>[<3>][290, irq/323-aicl-do][  104.167435] pmi632_charger: default_irq_handler: IRQ: aicl-done
+<3>[<0>][0, swapper/0][  104.189179] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][  104.566006] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  104.722084] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  104.822716] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  104.938556] PMIC input: code=114, sts=0x0
+<6>[<3>][252, kworker/3:1][  105.200089] pmi632_charger: smblib_icl_change_work: icl_settled=1200000
+<5>[<3>][353, charger][  105.200573] audit: type=1400 audit(210199.799:20): avc:  denied  { read } for  pid=353 comm="charger" name="charger_low_efficiency" dev="sysfs" ino=33153 scontext=u:r:charger:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=file permissive=0
+<5>[<3>][353, charger][  105.200730] audit: type=1400 audit(210199.799:21): avc:  denied  { read } for  pid=353 comm="charger" name="real_type" dev="sysfs" ino=33048 scontext=u:r:charger:s0 tcontext=u:object_r:sysfs_usb_supply:s0 tclass=file permissive=0
+<12>[<3>][353, charger][  105.200821] healthd: battery none chg=
+<3>[<0>][0, swapper/0][  105.363311] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  105.502901] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  105.667990] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][  105.842812] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][  106.320962] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  106.490654] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  106.697650] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  106.848251] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  107.453709] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  107.622245] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  107.989248] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  108.128824] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  108.250167] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  108.354536] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  108.488910] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][  108.637856] PMIC input: code=116, sts=0x0
+<3>[<0>][354, recovery][  108.938803] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  109.135874] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  109.631861] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][  109.752587] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][  109.957081] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  110.129429] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  110.305118] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  110.432104] PMIC input: code=114, sts=0x0
+<3>[<0>][354, recovery][  110.532058] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  110.667572] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  110.895051] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][  111.040080] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][  111.265814] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  111.424849] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  111.700496] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][  111.852872] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][  112.054800] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  112.211928] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  112.405008] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][  112.584556] PMIC input: code=116, sts=0x0
+<3>[<0>][42, kworker/0:1][  112.833607] ***temp=338,v_batt=3959305,c_batt=-951386,cap=41,status=1,charge_type=3,batt_p=1,usb_p=1,board_temp=344,usbin_v=4223872,usbin_i=1201717
+<3>[<0>][0, swapper/0][  113.691670] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  113.856374] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  114.256867] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][  114.406356] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][  114.578124] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][  114.939166] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][  117.018778] PMIC input: code=116, sts=0x1
+<3>[<0>][358, recovery][  117.606311] PMIC input: code=116, sts=0x0
+<3>[<0>][0, swapper/0][  119.506690] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  119.607914] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  119.731523] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  119.817774] PMIC input: code=114, sts=0x0
+<3>[<0>][354, recovery][  119.905258] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  119.993952] PMIC input: code=114, sts=0x0
+<3>[<0>][354, recovery][  120.084321] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  120.167140] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  120.270823] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  120.347776] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  120.482425] PMIC input: code=114, sts=0x2
+<3>[<0>][0, swapper/0][  120.595486] PMIC input: code=114, sts=0x0
+<3>[<0>][0, swapper/0][  120.919099] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][  121.083061] PMIC input: code=116, sts=0x0
+<6>[<0>][354, recovery][  121.232827] EXT4-fs (mmcblk0p57): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered
+<3>[<0>][0, swapper/0][  124.068975] PMIC input: code=116, sts=0x1
+<3>[<0>][0, swapper/0][  124.180318] PMIC input: code=116, sts=0x0
+<6>[<0>][354, recovery][  124.229616] EXT4-fs (mmcblk0p57): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered
